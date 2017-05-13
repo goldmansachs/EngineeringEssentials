@@ -24,7 +24,7 @@ Copyright 2017 Goldman Sachs.
 4.1 Refactor Cards to be stored in the state of App.js.
 4.2 Add a form skeleton for inputting new Cards a new file called CardForm.js.
 4.3 Add a submit button that performs an action on click.
-4.4 Implement text input (with value setting, with state).
+4.4 Implement text input (with value setting, with state) in a new file called TextInput.js.
 4.5 Compose CardForm with App as the parent.
 4.6 Make text inputs editable (with onChange handlers).
 4.7 Allow text to be accessible in CardForm state so we can submit it.
