@@ -5,7 +5,6 @@
   "dependencies": {
     "create-react-class": "^15.5.3",
     "react": "^15.5.4",
-    "react-datepicker": "^0.46.0",
     "react-dom": "^15.5.4",
   },
   "devDependencies": {
