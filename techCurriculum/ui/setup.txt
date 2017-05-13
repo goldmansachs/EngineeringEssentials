@@ -21,10 +21,16 @@ Copyright 2017 Goldman Sachs.
 # Environment Setup
 
 - We will assume you have the repository in the root of a drive, e.g. H:\
-- File structure will look like: H:\EngineeringEssentials\cards-app\...
+- File structure will look like: H:\EngineeringEssentials\techCurriculum\ui\starter_code\cards-app\...
+- Run the following commands to get set up with the boiler plate code
+    
+    > H:\...>npm install -g create-react-app
+        * This globally installs Facebook's create-react-app tool
+    > H:\EngineeringEssentials\techCurriculum\ui\starter_code\cards-app\cards-app>npm install
+        * Installs the initial dependencies for this project (mainly vanilla React libraries)
 
 # Test your setup 
 
-    > H:\EngineeringEssentials\cards-app>npm start
+    > H:\EngineeringEssentials\techCurriculum\ui\starter_code\cards-app>npm start
 
     You should see a barebones page that says "Hello World"

@@ -16,7 +16,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '.../stylesheet.css';
+import '../stylesheet.css';
 
 ReactDOM.render(
   <p>Hello World</p>,
