@@ -15,7 +15,7 @@ Copyright 2017 Goldman Sachs.
 2.2 Compose your Title component in the App component.
 2.3 Only render a single component App from index.js.
 2.4 Create a new component named "User" to display a user icon and the name "John Smith" underneath.
-2.5 Create a new component named "MessagE" to display the text "React is so cool!"
+2.5 Create a new component named "Message" to display the text "React is so cool!"
 2.6 Create a new component named "Card" composed of the other components you previously created.
 2.7 Render your Card component into the DOM.
 3.1 Pass in "John Smith" into your User component as a prop.
