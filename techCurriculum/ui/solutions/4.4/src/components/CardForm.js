@@ -32,7 +32,7 @@ class CardForm extends React.Component {
         <h2>Add a Card</h2>
         <TextInput name='username' label='Username' />
         <TextInput name='message' label='Message' />
-        <button className='btn btn-primary' onClick={this.handleSubmit} />
+        <button className='btn btn-primary' onClick={this.handleSubmit} />Submit</button>
       </form>
     );
   }

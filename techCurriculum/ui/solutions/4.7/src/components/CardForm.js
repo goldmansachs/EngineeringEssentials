@@ -34,7 +34,7 @@ class CardForm extends React.Component {
     this.setState({message: value});
   }
 
-  handleSubmit() {
+  handleSubmit(event) {
 
   }
 
