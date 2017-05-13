@@ -41,23 +41,23 @@ class App extends React.Component {
 
   }
   
-  render() {
-    const cards = this.state.cards.map((card, index) => (
+  render() {
+    const cards = this.state.cards.map((card, index) => (
       <Card author={card.author}
         text={card.text}
-        key={index} />
+        key={index} />
     ));
 
-    return (
+    return (
       <div id='app-body'>
         <div id='left-panel'>
-          <Title />
-          { cards }
+          <Title />
+          { cards }
         </div>
         <CardForm onSubmit={this.handleSubmit} />
       </div>
     );
-  }
+  }
 }
 
 export default App;

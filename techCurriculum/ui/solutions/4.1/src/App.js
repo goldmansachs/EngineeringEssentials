@@ -35,20 +35,20 @@ class App extends React.Component {
     };
   }
   
-  render() {
-    const cards = this.state.cards.map((card, index) => (
+  render() {
+    const cards = this.state.cards.map((card, index) => (
       <Card author={card.author}
         text={card.text}
-        key={index} />
+        key={index} />
     ));
 
-    return (
+    return (
       <div>
-        <Title />
-        { cards }
+        <Title />
+        { cards }
       </div>
     );
-  }
+  }
 }
 
 export default App;
