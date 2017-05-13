@@ -18,14 +18,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../stylesheet.css';
 
-const title = (
-  <div>
-    <h1>Cards</h1>
-    <h3>Share your ideas</h3>
-  </div>
-);
-
 ReactDOM.render(
-  title,
+  <p>Hello World</p>,
   document.getElementById('root')
 );
