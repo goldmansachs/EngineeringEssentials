@@ -16,16 +16,14 @@
 
 import React from 'react';
 import Highcharts from 'highcharts';
-require('highcharts/modules/funnel')(Highcharts);
 
 class LineChart extends React.Component {
     constructor(props) {
         super(props);
-        this.chart = undefined;
     }
 
     componentDidMount() {
-/*        this.chart = Highcharts.chart('chart', {
+/*        Highcharts.chart('chart', {
 
             TODO
             Create a highcharts line chart of your choosing (e.g. https://www.highcharts.com/demo/line-time-series for a demo).

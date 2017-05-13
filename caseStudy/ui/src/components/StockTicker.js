@@ -31,9 +31,16 @@
  * axios: https://github.com/mzabriskie/axios (you will need to install this package)
  * jquery: http://api.jquery.com/jquery.getjson/ (you will need to install the jquery package)
  *
- * Take a look at the react-bootstrap-typeahead package, which accepts an array of strings or objects.
- * It is already provided as a part of the package.json. You may use
- * another package for this component if you'd like.
+ * Feel free to choose among of the many open source options for your typeahead select box.
+ * We recommend react-select or react-bootstrap-typeahead. react-boostrap-typeahead is included
+ * in your package.json.
+ *
+ * react-select:
+ * https://www.npmjs.com/package/react-select
+ * http://jedwatson.github.io/react-select/
+ * https://github.com/JedWatson/react-select
+ * 
+ * react-boostrap-typeahead
  * https://www.npmjs.com/package/react-bootstrap-typeahead
  * http://ericgio.github.io/react-bootstrap-typeahead/
  * https://github.com/ericgio/react-bootstrap-typeahead/blob/master/example/examples/BasicBehaviorsExample.react.js (note this is not ES2015)
@@ -42,8 +49,9 @@
 import React from 'react';
 //import {Typeahead} from 'react-bootstrap-typeahead'; UNCOMMENT this line if you are using the react-bootstrap-typeeahead component
 
-/* Look at AsyncTypeahead for a component that provides auto-complete suggestions as you type. This would require adding a
- * search handler method for an onSearch prop.
+/* If you chose to use react-boostrap-typeahead, look at AsyncTypeahead for a component that 
+ * provides auto-complete suggestions as you type. This would require adding a search handler 
+ * method for an onSearch prop.
  * https://github.com/ericgio/react-bootstrap-typeahead/blob/master/example/examples/AsyncExample.react.js
  */
 
