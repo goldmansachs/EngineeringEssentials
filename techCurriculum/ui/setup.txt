@@ -26,7 +26,7 @@ Copyright 2017 Goldman Sachs.
     
     > H:\...>npm install -g create-react-app
         * This globally installs Facebook's create-react-app tool
-    > H:\EngineeringEssentials\techCurriculum\ui\starter_code\cards-app\cards-app>npm install
+    > H:\EngineeringEssentials\techCurriculum\ui\starter_code\cards-app>npm install
         * Installs the initial dependencies for this project (mainly vanilla React libraries)
 
 # Test your setup 
