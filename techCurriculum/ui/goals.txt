@@ -26,7 +26,7 @@ Copyright 2017 Goldman Sachs.
 4.3 Add a submit button that performs an action on click.
 4.4 Implement text input (with value setting, with state) in a new file called TextInput.js.
 4.5 Compose CardForm with App as the parent.
-4.6 Make text inputs editable (with onChange handlers).
+4.6 Make text inputs editable (with onChange handler).
 4.7 Allow text to be accessible in CardForm state so we can submit it.
 4.8 Propogate form submissions to the App state.
 5.1 Add a react-select in CardForm to allow selection of multiple tags with your card (without storing in state yet)
