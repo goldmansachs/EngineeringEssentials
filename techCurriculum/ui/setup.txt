@@ -14,8 +14,9 @@ Copyright 2017 Goldman Sachs.
 # Prerequisites
 
 - IDE e.g. Sublime Text, Visual Studio Code
-- Node (v6.x or v4.x should both be fine)
+- Node (v7.x, v6.x, or v4.x should all be fine)
 - npm (v2.x)
+- git (v2.x)
 - clone the goldmansachs/EngineeringEssentials GitHub repository
 
 # Environment Setup
