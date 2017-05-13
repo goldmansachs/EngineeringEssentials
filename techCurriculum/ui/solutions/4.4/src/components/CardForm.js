@@ -19,6 +19,7 @@ import TextInput from './TextInput.js'
 
 class CardForm extends React.Component {
   constructor(props) {
+    super(props);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
