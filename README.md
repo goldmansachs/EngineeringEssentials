@@ -6,7 +6,7 @@ Read more at http://www.goldmansachs.com/careers/discover/engineering-essentials
 
 ## Technical Curriculum
 
-As part of the technical curriculum, you will learn about how to model a system, build RESTful services and create an user interface for your application.
+As part of the technical curriculum, you will learn about how to model a system, build RESTful services and create a user interface for your application.
 
 ## Case Study - Stock Visualization Application
 
