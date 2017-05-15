@@ -1,3 +1,7 @@
+# Pull Requests
+
+There is no contribution agreement in place, so we are not accepting external pull requests at this time.
+
 # 2017 Engineering Essentials
 
 Goldman Sachs Engineering Essentials is a four day program designed to help current college sophomores develop the essential skills and tools to prepare for a successful career as a software engineer.
