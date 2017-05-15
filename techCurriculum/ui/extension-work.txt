@@ -1,0 +1,24 @@
+Copyright 2017 Goldman Sachs.
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+            http://www.apache.org/licenses/LICENSE-2.0
+        Unless required by applicable law or agreed to in writing,
+        software distributed under the License is distributed on an
+        "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+        KIND, either express or implied.  See the License for the
+        specific language governing permissions and limitations
+        under the License.
+        
+Extra features you can add to the Cards project...
+* "Favorite" Cards: Add a star icon on all cards that allows you to click the star to "favorite" the card
+* "Reply-to" Cards: Add a reply icon on all cards that, when clicked, opens a different form for responding
+* More libraries: Think up some features for the app and use open source third party libraries from GitHub to implement them
+
+
+Further topics to research...
+* Fetch, Axios, jQuery -- figure out how to use at least one of these to make AJAX HTTP requests! You'll need to do this for your case study.
+* React router -- can use this to add several pages to your application
+* React lifecycle -- learn more about React's under the hood "magic" and places where you can inject additional logic
+* Redux -- popular central datastore architecture, more useful for larger projects
+* Boilerplate -- alternatives to create-react-app that you'll probably consider if you ever make your own React app

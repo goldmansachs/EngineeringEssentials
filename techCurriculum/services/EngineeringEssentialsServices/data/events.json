@@ -1,0 +1,901 @@
+[ {
+  "date" : "2017-02-09",
+  "winningCountry" : "India",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 10,
+  "losingScore" : 9,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-20",
+  "winningCountry" : "India",
+  "losingCountry" : "China",
+  "winningScore" : 13,
+  "losingScore" : 2,
+  "eventType" : "Baseball",
+  "homeCountry" : "China",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-16",
+  "winningCountry" : "Portugal",
+  "losingCountry" : "Australia",
+  "winningScore" : 13,
+  "losingScore" : 9,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "Australia"
+}, {
+  "date" : "2017-02-14",
+  "winningCountry" : "China",
+  "losingCountry" : "Australia",
+  "winningScore" : 13,
+  "losingScore" : 2,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Australia",
+  "awayCountry" : "China"
+}, {
+  "date" : "2017-02-15",
+  "winningCountry" : "Australia",
+  "losingCountry" : "India",
+  "winningScore" : 10,
+  "losingScore" : 4,
+  "eventType" : "Curling",
+  "homeCountry" : "Australia",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-11",
+  "winningCountry" : "UnitedStates",
+  "losingCountry" : "India",
+  "winningScore" : 12,
+  "losingScore" : 2,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "India",
+  "awayCountry" : "UnitedStates"
+}, {
+  "date" : "2017-02-04",
+  "winningCountry" : "Japan",
+  "losingCountry" : "India",
+  "winningScore" : 13,
+  "losingScore" : 4,
+  "eventType" : "Baseball",
+  "homeCountry" : "India",
+  "awayCountry" : "Japan"
+}, {
+  "date" : "2017-02-02",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "Japan",
+  "winningScore" : 15,
+  "losingScore" : 8,
+  "eventType" : "Baseball",
+  "homeCountry" : "Brazil",
+  "awayCountry" : "Japan"
+}, {
+  "date" : "2017-02-19",
+  "winningCountry" : "India",
+  "losingCountry" : "Japan",
+  "winningScore" : 12,
+  "losingScore" : 5,
+  "eventType" : "Curling",
+  "homeCountry" : "India",
+  "awayCountry" : "Japan"
+}, {
+  "date" : "2017-02-23",
+  "winningCountry" : "England",
+  "losingCountry" : "India",
+  "winningScore" : 13,
+  "losingScore" : 2,
+  "eventType" : "Baseball",
+  "homeCountry" : "England",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-13",
+  "winningCountry" : "UnitedStates",
+  "losingCountry" : "Portugal",
+  "winningScore" : 11,
+  "losingScore" : 5,
+  "eventType" : "Baseball",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "UnitedStates"
+}, {
+  "date" : "2017-02-07",
+  "winningCountry" : "England",
+  "losingCountry" : "Brazil",
+  "winningScore" : 15,
+  "losingScore" : 9,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "England",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-22",
+  "winningCountry" : "China",
+  "losingCountry" : "India",
+  "winningScore" : 11,
+  "losingScore" : 4,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "China",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-19",
+  "winningCountry" : "Portugal",
+  "losingCountry" : "China",
+  "winningScore" : 10,
+  "losingScore" : 0,
+  "eventType" : "Curling",
+  "homeCountry" : "China",
+  "awayCountry" : "Portugal"
+}, {
+  "date" : "2017-02-10",
+  "winningCountry" : "UnitedStates",
+  "losingCountry" : "Brazil",
+  "winningScore" : 10,
+  "losingScore" : 1,
+  "eventType" : "Baseball",
+  "homeCountry" : "Brazil",
+  "awayCountry" : "UnitedStates"
+}, {
+  "date" : "2017-02-08",
+  "winningCountry" : "Portugal",
+  "losingCountry" : "India",
+  "winningScore" : 15,
+  "losingScore" : 5,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "India",
+  "awayCountry" : "Portugal"
+}, {
+  "date" : "2017-02-05",
+  "winningCountry" : "India",
+  "losingCountry" : "Japan",
+  "winningScore" : 11,
+  "losingScore" : 8,
+  "eventType" : "Curling",
+  "homeCountry" : "India",
+  "awayCountry" : "Japan"
+}, {
+  "date" : "2017-02-08",
+  "winningCountry" : "China",
+  "losingCountry" : "Australia",
+  "winningScore" : 13,
+  "losingScore" : 4,
+  "eventType" : "Baseball",
+  "homeCountry" : "China",
+  "awayCountry" : "Australia"
+}, {
+  "date" : "2017-02-14",
+  "winningCountry" : "China",
+  "losingCountry" : "India",
+  "winningScore" : 12,
+  "losingScore" : 8,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "India",
+  "awayCountry" : "China"
+}, {
+  "date" : "2017-02-07",
+  "winningCountry" : "China",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 14,
+  "losingScore" : 5,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "China"
+}, {
+  "date" : "2017-02-27",
+  "winningCountry" : "India",
+  "losingCountry" : "China",
+  "winningScore" : 15,
+  "losingScore" : 8,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "China",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-10",
+  "winningCountry" : "Portugal",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 13,
+  "losingScore" : 0,
+  "eventType" : "Curling",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "Portugal"
+}, {
+  "date" : "2017-02-20",
+  "winningCountry" : "Australia",
+  "losingCountry" : "England",
+  "winningScore" : 13,
+  "losingScore" : 1,
+  "eventType" : "Baseball",
+  "homeCountry" : "Australia",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-24",
+  "winningCountry" : "China",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 12,
+  "losingScore" : 5,
+  "eventType" : "Baseball",
+  "homeCountry" : "China",
+  "awayCountry" : "UnitedStates"
+}, {
+  "date" : "2017-02-13",
+  "winningCountry" : "England",
+  "losingCountry" : "Portugal",
+  "winningScore" : 10,
+  "losingScore" : 0,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-25",
+  "winningCountry" : "India",
+  "losingCountry" : "China",
+  "winningScore" : 15,
+  "losingScore" : 0,
+  "eventType" : "Baseball",
+  "homeCountry" : "India",
+  "awayCountry" : "China"
+}, {
+  "date" : "2017-02-12",
+  "winningCountry" : "UnitedStates",
+  "losingCountry" : "Portugal",
+  "winningScore" : 10,
+  "losingScore" : 4,
+  "eventType" : "Baseball",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "UnitedStates"
+}, {
+  "date" : "2017-02-05",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "India",
+  "winningScore" : 12,
+  "losingScore" : 4,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Brazil",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-06",
+  "winningCountry" : "China",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 14,
+  "losingScore" : 9,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "China"
+}, {
+  "date" : "2017-02-15",
+  "winningCountry" : "Australia",
+  "losingCountry" : "India",
+  "winningScore" : 11,
+  "losingScore" : 3,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Australia",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-08",
+  "winningCountry" : "England",
+  "losingCountry" : "Brazil",
+  "winningScore" : 11,
+  "losingScore" : 6,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "England",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-04",
+  "winningCountry" : "Portugal",
+  "losingCountry" : "India",
+  "winningScore" : 13,
+  "losingScore" : 1,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-24",
+  "winningCountry" : "England",
+  "losingCountry" : "Japan",
+  "winningScore" : 14,
+  "losingScore" : 0,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Japan",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-16",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "Australia",
+  "winningScore" : 11,
+  "losingScore" : 4,
+  "eventType" : "Baseball",
+  "homeCountry" : "Australia",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-05",
+  "winningCountry" : "India",
+  "losingCountry" : "Australia",
+  "winningScore" : 14,
+  "losingScore" : 3,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Australia",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-13",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "Japan",
+  "winningScore" : 13,
+  "losingScore" : 6,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Japan",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-04",
+  "winningCountry" : "UnitedStates",
+  "losingCountry" : "England",
+  "winningScore" : 13,
+  "losingScore" : 0,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "England",
+  "awayCountry" : "UnitedStates"
+}, {
+  "date" : "2017-02-26",
+  "winningCountry" : "Portugal",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 11,
+  "losingScore" : 3,
+  "eventType" : "Baseball",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "UnitedStates"
+}, {
+  "date" : "2017-02-19",
+  "winningCountry" : "England",
+  "losingCountry" : "India",
+  "winningScore" : 12,
+  "losingScore" : 3,
+  "eventType" : "Curling",
+  "homeCountry" : "India",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-16",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "Portugal",
+  "winningScore" : 15,
+  "losingScore" : 6,
+  "eventType" : "Curling",
+  "homeCountry" : "Brazil",
+  "awayCountry" : "Portugal"
+}, {
+  "date" : "2017-02-17",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "Australia",
+  "winningScore" : 13,
+  "losingScore" : 8,
+  "eventType" : "Baseball",
+  "homeCountry" : "Brazil",
+  "awayCountry" : "Australia"
+}, {
+  "date" : "2017-02-27",
+  "winningCountry" : "England",
+  "losingCountry" : "India",
+  "winningScore" : 15,
+  "losingScore" : 3,
+  "eventType" : "Baseball",
+  "homeCountry" : "England",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-07",
+  "winningCountry" : "China",
+  "losingCountry" : "Brazil",
+  "winningScore" : 13,
+  "losingScore" : 0,
+  "eventType" : "Baseball",
+  "homeCountry" : "China",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-13",
+  "winningCountry" : "Portugal",
+  "losingCountry" : "India",
+  "winningScore" : 10,
+  "losingScore" : 2,
+  "eventType" : "Curling",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-03",
+  "winningCountry" : "China",
+  "losingCountry" : "Brazil",
+  "winningScore" : 14,
+  "losingScore" : 8,
+  "eventType" : "Curling",
+  "homeCountry" : "Brazil",
+  "awayCountry" : "China"
+}, {
+  "date" : "2017-02-11",
+  "winningCountry" : "UnitedStates",
+  "losingCountry" : "Portugal",
+  "winningScore" : 14,
+  "losingScore" : 7,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "UnitedStates"
+}, {
+  "date" : "2017-02-25",
+  "winningCountry" : "Portugal",
+  "losingCountry" : "England",
+  "winningScore" : 12,
+  "losingScore" : 1,
+  "eventType" : "Baseball",
+  "homeCountry" : "England",
+  "awayCountry" : "Portugal"
+}, {
+  "date" : "2017-02-04",
+  "winningCountry" : "Australia",
+  "losingCountry" : "Portugal",
+  "winningScore" : 14,
+  "losingScore" : 4,
+  "eventType" : "Curling",
+  "homeCountry" : "Australia",
+  "awayCountry" : "Portugal"
+}, {
+  "date" : "2017-02-27",
+  "winningCountry" : "Australia",
+  "losingCountry" : "Portugal",
+  "winningScore" : 10,
+  "losingScore" : 3,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "Australia"
+}, {
+  "date" : "2017-02-16",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "Japan",
+  "winningScore" : 13,
+  "losingScore" : 3,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Japan",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-22",
+  "winningCountry" : "China",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 14,
+  "losingScore" : 4,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "China"
+}, {
+  "date" : "2017-02-24",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "Portugal",
+  "winningScore" : 12,
+  "losingScore" : 5,
+  "eventType" : "Curling",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-14",
+  "winningCountry" : "Australia",
+  "losingCountry" : "China",
+  "winningScore" : 12,
+  "losingScore" : 6,
+  "eventType" : "Curling",
+  "homeCountry" : "China",
+  "awayCountry" : "Australia"
+}, {
+  "date" : "2017-02-20",
+  "winningCountry" : "Japan",
+  "losingCountry" : "England",
+  "winningScore" : 12,
+  "losingScore" : 6,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "England",
+  "awayCountry" : "Japan"
+}, {
+  "date" : "2017-02-05",
+  "winningCountry" : "China",
+  "losingCountry" : "Brazil",
+  "winningScore" : 12,
+  "losingScore" : 5,
+  "eventType" : "Curling",
+  "homeCountry" : "Brazil",
+  "awayCountry" : "China"
+}, {
+  "date" : "2017-02-17",
+  "winningCountry" : "UnitedStates",
+  "losingCountry" : "Brazil",
+  "winningScore" : 11,
+  "losingScore" : 0,
+  "eventType" : "Baseball",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-04",
+  "winningCountry" : "India",
+  "losingCountry" : "Japan",
+  "winningScore" : 10,
+  "losingScore" : 9,
+  "eventType" : "Baseball",
+  "homeCountry" : "India",
+  "awayCountry" : "Japan"
+}, {
+  "date" : "2017-02-08",
+  "winningCountry" : "China",
+  "losingCountry" : "Brazil",
+  "winningScore" : 12,
+  "losingScore" : 8,
+  "eventType" : "Baseball",
+  "homeCountry" : "China",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-01",
+  "winningCountry" : "Australia",
+  "losingCountry" : "Brazil",
+  "winningScore" : 10,
+  "losingScore" : 9,
+  "eventType" : "Baseball",
+  "homeCountry" : "Brazil",
+  "awayCountry" : "Australia"
+}, {
+  "date" : "2017-02-03",
+  "winningCountry" : "England",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 14,
+  "losingScore" : 2,
+  "eventType" : "Baseball",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-06",
+  "winningCountry" : "Australia",
+  "losingCountry" : "Japan",
+  "winningScore" : 10,
+  "losingScore" : 7,
+  "eventType" : "Baseball",
+  "homeCountry" : "Japan",
+  "awayCountry" : "Australia"
+}, {
+  "date" : "2017-02-23",
+  "winningCountry" : "India",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 10,
+  "losingScore" : 0,
+  "eventType" : "Baseball",
+  "homeCountry" : "India",
+  "awayCountry" : "UnitedStates"
+}, {
+  "date" : "2017-02-10",
+  "winningCountry" : "Australia",
+  "losingCountry" : "Portugal",
+  "winningScore" : 13,
+  "losingScore" : 8,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "Australia"
+}, {
+  "date" : "2017-02-21",
+  "winningCountry" : "England",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 15,
+  "losingScore" : 4,
+  "eventType" : "Baseball",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-27",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "India",
+  "winningScore" : 12,
+  "losingScore" : 6,
+  "eventType" : "Curling",
+  "homeCountry" : "India",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-09",
+  "winningCountry" : "England",
+  "losingCountry" : "Japan",
+  "winningScore" : 15,
+  "losingScore" : 5,
+  "eventType" : "Curling",
+  "homeCountry" : "Japan",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-21",
+  "winningCountry" : "Portugal",
+  "losingCountry" : "China",
+  "winningScore" : 11,
+  "losingScore" : 3,
+  "eventType" : "Baseball",
+  "homeCountry" : "China",
+  "awayCountry" : "Portugal"
+}, {
+  "date" : "2017-02-12",
+  "winningCountry" : "Australia",
+  "losingCountry" : "England",
+  "winningScore" : 11,
+  "losingScore" : 0,
+  "eventType" : "Baseball",
+  "homeCountry" : "Australia",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-02",
+  "winningCountry" : "China",
+  "losingCountry" : "Brazil",
+  "winningScore" : 13,
+  "losingScore" : 1,
+  "eventType" : "Baseball",
+  "homeCountry" : "China",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-24",
+  "winningCountry" : "India",
+  "losingCountry" : "Japan",
+  "winningScore" : 14,
+  "losingScore" : 9,
+  "eventType" : "Curling",
+  "homeCountry" : "Japan",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-07",
+  "winningCountry" : "Portugal",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 10,
+  "losingScore" : 2,
+  "eventType" : "Curling",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "UnitedStates"
+}, {
+  "date" : "2017-02-25",
+  "winningCountry" : "England",
+  "losingCountry" : "China",
+  "winningScore" : 15,
+  "losingScore" : 7,
+  "eventType" : "Curling",
+  "homeCountry" : "China",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-20",
+  "winningCountry" : "Australia",
+  "losingCountry" : "China",
+  "winningScore" : 13,
+  "losingScore" : 7,
+  "eventType" : "Curling",
+  "homeCountry" : "Australia",
+  "awayCountry" : "China"
+}, {
+  "date" : "2017-02-26",
+  "winningCountry" : "Japan",
+  "losingCountry" : "Australia",
+  "winningScore" : 14,
+  "losingScore" : 9,
+  "eventType" : "Baseball",
+  "homeCountry" : "Japan",
+  "awayCountry" : "Australia"
+}, {
+  "date" : "2017-02-13",
+  "winningCountry" : "England",
+  "losingCountry" : "Portugal",
+  "winningScore" : 14,
+  "losingScore" : 4,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "England",
+  "awayCountry" : "Portugal"
+}, {
+  "date" : "2017-02-08",
+  "winningCountry" : "Japan",
+  "losingCountry" : "India",
+  "winningScore" : 11,
+  "losingScore" : 8,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Japan",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-06",
+  "winningCountry" : "England",
+  "losingCountry" : "Portugal",
+  "winningScore" : 14,
+  "losingScore" : 1,
+  "eventType" : "Curling",
+  "homeCountry" : "England",
+  "awayCountry" : "Portugal"
+}, {
+  "date" : "2017-02-19",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "Australia",
+  "winningScore" : 13,
+  "losingScore" : 0,
+  "eventType" : "Curling",
+  "homeCountry" : "Australia",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-04",
+  "winningCountry" : "China",
+  "losingCountry" : "Brazil",
+  "winningScore" : 11,
+  "losingScore" : 2,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Brazil",
+  "awayCountry" : "China"
+}, {
+  "date" : "2017-02-17",
+  "winningCountry" : "Portugal",
+  "losingCountry" : "England",
+  "winningScore" : 12,
+  "losingScore" : 4,
+  "eventType" : "Baseball",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-18",
+  "winningCountry" : "India",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 11,
+  "losingScore" : 1,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "India",
+  "awayCountry" : "UnitedStates"
+}, {
+  "date" : "2017-02-05",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "Australia",
+  "winningScore" : 13,
+  "losingScore" : 0,
+  "eventType" : "Baseball",
+  "homeCountry" : "Australia",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-21",
+  "winningCountry" : "Japan",
+  "losingCountry" : "Australia",
+  "winningScore" : 10,
+  "losingScore" : 9,
+  "eventType" : "Curling",
+  "homeCountry" : "Australia",
+  "awayCountry" : "Japan"
+}, {
+  "date" : "2017-02-20",
+  "winningCountry" : "Japan",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 13,
+  "losingScore" : 6,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "Japan"
+}, {
+  "date" : "2017-02-20",
+  "winningCountry" : "UnitedStates",
+  "losingCountry" : "England",
+  "winningScore" : 12,
+  "losingScore" : 5,
+  "eventType" : "Curling",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-18",
+  "winningCountry" : "Portugal",
+  "losingCountry" : "Brazil",
+  "winningScore" : 10,
+  "losingScore" : 9,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Brazil",
+  "awayCountry" : "Portugal"
+}, {
+  "date" : "2017-02-18",
+  "winningCountry" : "India",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 12,
+  "losingScore" : 7,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-11",
+  "winningCountry" : "India",
+  "losingCountry" : "Portugal",
+  "winningScore" : 15,
+  "losingScore" : 3,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-04",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "Portugal",
+  "winningScore" : 15,
+  "losingScore" : 1,
+  "eventType" : "Curling",
+  "homeCountry" : "Portugal",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-22",
+  "winningCountry" : "Japan",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 10,
+  "losingScore" : 1,
+  "eventType" : "Baseball",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "Japan"
+}, {
+  "date" : "2017-02-10",
+  "winningCountry" : "England",
+  "losingCountry" : "Brazil",
+  "winningScore" : 12,
+  "losingScore" : 6,
+  "eventType" : "Curling",
+  "homeCountry" : "Brazil",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-26",
+  "winningCountry" : "China",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 12,
+  "losingScore" : 5,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "UnitedStates",
+  "awayCountry" : "China"
+}, {
+  "date" : "2017-02-04",
+  "winningCountry" : "India",
+  "losingCountry" : "Japan",
+  "winningScore" : 13,
+  "losingScore" : 7,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Japan",
+  "awayCountry" : "India"
+}, {
+  "date" : "2017-02-12",
+  "winningCountry" : "Japan",
+  "losingCountry" : "India",
+  "winningScore" : 10,
+  "losingScore" : 4,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "India",
+  "awayCountry" : "Japan"
+}, {
+  "date" : "2017-02-10",
+  "winningCountry" : "Australia",
+  "losingCountry" : "Brazil",
+  "winningScore" : 11,
+  "losingScore" : 6,
+  "eventType" : "Baseball",
+  "homeCountry" : "Brazil",
+  "awayCountry" : "Australia"
+}, {
+  "date" : "2017-02-21",
+  "winningCountry" : "India",
+  "losingCountry" : "Brazil",
+  "winningScore" : 14,
+  "losingScore" : 2,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "India",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-17",
+  "winningCountry" : "Australia",
+  "losingCountry" : "England",
+  "winningScore" : 12,
+  "losingScore" : 9,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Australia",
+  "awayCountry" : "England"
+}, {
+  "date" : "2017-02-19",
+  "winningCountry" : "Brazil",
+  "losingCountry" : "Japan",
+  "winningScore" : 14,
+  "losingScore" : 8,
+  "eventType" : "WaterPolo",
+  "homeCountry" : "Japan",
+  "awayCountry" : "Brazil"
+}, {
+  "date" : "2017-02-12",
+  "winningCountry" : "Japan",
+  "losingCountry" : "UnitedStates",
+  "winningScore" : 10,
+  "losingScore" : 7,
+  "eventType" : "Baseball",
+  "homeCountry" : "Japan",
+  "awayCountry" : "UnitedStates"
+}, {
+  "date" : "2017-02-16",
+  "winningCountry" : "England",
+  "losingCountry" : "India",
+  "winningScore" : 13,
+  "losingScore" : 2,
+  "eventType" : "Baseball",
+  "homeCountry" : "India",
+  "awayCountry" : "England"
+} ]
