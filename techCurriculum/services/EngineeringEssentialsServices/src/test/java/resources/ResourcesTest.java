@@ -23,7 +23,7 @@ import static org.junit.Assert.assertTrue;
 import static utility.FileHelper.DATEFORMAT;
 
 /**
- * Copyright 2017 Goldman Sachs.
+ * Copyright 2018 Goldman Sachs.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -85,7 +85,7 @@ public class ResourcesTest extends JerseyTest {
          *
          */
 
-        Date date = DATEFORMAT.parse("2017-02-27");
+        Date date = DATEFORMAT.parse("2018-02-27");
         event.setDate(date);
 
         Event response = target().path("events/sample").request().get(Event.class);
@@ -163,7 +163,7 @@ public class ResourcesTest extends JerseyTest {
         event.setLosingScore(4);
         event.setEventType(EventType.Baseball);
 
-        Date date = DATEFORMAT.parse("2017-02-22");
+        Date date = DATEFORMAT.parse("2018-02-22");
         event.setDate(date);
 
         Response postEvent = target().path("events/createEvent").request().post(Entity.json(event));
@@ -208,9 +208,9 @@ public class ResourcesTest extends JerseyTest {
     @Test
     public void testExample12() {
 
-        // Check that the number of events between Feb 09 2017 and Feb 12 2017 (inclusive) is 14
+        // Check that the number of events between Feb 09 2018 and Feb 12 2018 (inclusive) is 14
 
-        List<Event> eventsInRange = target().path("/events/startDate/2017-02-09/endDate/2017-02-12").request().get(List.class);
+        List<Event> eventsInRange = target().path("/events/startDate/2018-02-09/endDate/2018-02-12").request().get(List.class);
         assertEquals(14, eventsInRange.size());
     }
 }

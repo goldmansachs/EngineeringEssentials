@@ -1,5 +1,5 @@
 /**
- * Copyright 2017 Goldman Sachs.
+ * Copyright 2018 Goldman Sachs.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -61,9 +61,9 @@ class Charts extends React.Component {
          * {
          *      "dailyClosePrices": [
          *      {
-         *         "3/15/2017": 284.97,
-         *          "4/6/2017": 152.97,
-         *          "4/21/2017": 156.97,
+         *         "3/15/2018": 284.97,
+         *          "4/6/2018": 152.97,
+         *          "4/21/2018": 156.97,
          *          ...
          *      }],
          *      "name": "SOME_STOCK_NAME"

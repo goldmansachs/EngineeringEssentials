@@ -14,7 +14,7 @@ import java.util.List;
 import static utility.FileHelper.DATEFORMAT;
 
 /**
- * Copyright 2017 Goldman Sachs.
+ * Copyright 2018 Goldman Sachs.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -38,7 +38,7 @@ public class Example12Resource {
      *
      * Hint: Read in the dates as Strings
      *
-     * URL: http://localhost:8080/events/startDate/2017-03-07/endDate/2017-03-14
+     * URL: http://localhost:8080/events/startDate/2018-03-07/endDate/2018-03-14
      */
     @GET
     @Path("")

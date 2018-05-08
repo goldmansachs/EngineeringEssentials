@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * Copyright 2017 Goldman Sachs.
+ * Copyright 2018 Goldman Sachs.
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -82,7 +82,7 @@ public class CreateEvents {
         }
 
 
-        Date date = new GregorianCalendar(2017, month, dayOfMonth).getTime();
+        Date date = new GregorianCalendar(2018, month, dayOfMonth).getTime();
         event.setDate(date);
 
         return event;
