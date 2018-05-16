@@ -91,6 +91,7 @@ class StockTicker extends React.Component {
                 sector: '',
                 industry: ''
             }
+            company[symbol] = 
             /**
              * TODO
              * Add any additional state to pass via props to the typeahead component.
