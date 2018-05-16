@@ -195,10 +195,7 @@ class StockTicker extends React.Component {
                 {
                     <input type='text' name='title' value={this.state.title} 
                     onChange={this.handleChange.bind(this)}/>
-
-
                 }
-                
                 {
                     
                     /**

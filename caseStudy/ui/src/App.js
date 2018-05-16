@@ -17,6 +17,7 @@
 import React from 'react';
 import './style/App.css';
 import StockTicker from './components/StockTicker'
+import Date from './components/Date'
 
 /**
  * TODO:
@@ -65,10 +66,11 @@ class App extends React.Component{
               
               }
                
-               <StockTicker onChange = {this.change}/>
+               <StockTicker/>
                 
                 <div className="date-range">
-                    
+                    <Date text='Start Date'/>
+                    <Date text='End Date'/>
 
                 </div>
               </div>
