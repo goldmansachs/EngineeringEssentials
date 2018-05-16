@@ -91,10 +91,7 @@ public class Stock {
      * Comparator method
      */
     @Override
-    public int compare(Object x) {
-        Calendar cal = (Calendar) x;
-        if ( date.before(cal) ) return -1;
-        if ( date.after(cal) ) return 1;
-        return 0;
+    public int compare(Calendar c) {
+        return date.compareTo(c);
       }
 }
