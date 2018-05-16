@@ -23,18 +23,25 @@ import StockTicker from './components/StockTicker'
  * Import your components
  */
 
+ import LineChart from './components/charts/LineChart'
+
 
 class App extends React.Component{
     constructor(props) {
         super(props);
+        
         this.state = {
             /**
              * TODO
              * Add state objects for the user inputs and anything else you may need to render the highchart.
              */
+            stock: <StockTicker />
+        
         };
 
     }
+
+    
 
 
 
@@ -52,10 +59,14 @@ class App extends React.Component{
                * These props methods should set state and help determine if the
                * highchart should be displayed by changing the state of that boolean.
                * Don't forget to bind these methods!
-               */}
-               
-               <StockTicker/>
+               */
+              
 
+              
+              }
+               
+               <StockTicker onChange = {this.change}/>
+                
                 <div className="date-range">
                     
 
@@ -70,7 +81,8 @@ class App extends React.Component{
                    *  to help control rendering and pass these states as props to the component. This conditional can
                    *  be maintained as a state object.
                    *  http://reactpatterns.com/#conditional-rendering
-                   */}
+                   */
+                  }
 
           </div>
       );
