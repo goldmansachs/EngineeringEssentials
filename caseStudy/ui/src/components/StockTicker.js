@@ -47,7 +47,7 @@
  */
 
 import React from 'react';
-//import {Typeahead} from 'react-bootstrap-typeahead'; UNCOMMENT this line if you are using the react-bootstrap-typeeahead component
+import {Typeahead} from 'react-bootstrap-typeahead'; //UNCOMMENT this line if you are using the react-bootstrap-typeeahead component
 
 /* If you chose to use react-boostrap-typeahead, look at AsyncTypeahead for a component that 
  * provides auto-complete suggestions as you type. This would require adding a search handler 
@@ -132,17 +132,17 @@ class StockTicker extends React.Component {
                 <div className="ticker-input">
                     <p><strong>Stock Ticker</strong></p>
                     <div className="stockticker-typeahead">
-                        {/* useful props if you decide to use react-bootstrap-typeahead
+                        {// useful props if you decide to use react-bootstrap-typeahead
                         <Typeahead
-                             align=
-                             filterBy=
-                             labelKey=
+                             align="left"
+                             //filterBy=
+                             labelKey="company"
                              onChange={this.handleChange}
-                             minLength=
+                             minLength={2}
                              placeholder="Company Name/Ticker"
-                             options=
+                             options={['Goldman Sachs (GS)', 'Goldmasdfdsfn Sachs (GS)', 'c']}
                         />
-                        */}
+                        }
                     </div>
                 </div>
                 {
@@ -160,4 +160,5 @@ class StockTicker extends React.Component {
 
 }
 
+export default StockTicker
 //Don't forget to export your component!
