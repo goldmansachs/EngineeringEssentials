@@ -75,7 +75,7 @@ class StockTicker extends React.Component {
     let options = [
         "ATVI", "ADBE", "AKAM", "ALXN", "GOOG", "AMZN", "AAL", "AMGN", "ADI", "AAPL",
         "AMAT", "ADSK", "ADP", "BIDU", "BIIB", "BMRN", "AVGO", "CA", "CELG", "CERN",
-        "CHTR", "CHKP", "CTAS", "CSCO", "CTXS", "CTSH", "CMCSA", "COST", "CSX", "CTRP"
+        "CHTR", "CHKP", "CTAS", "CSCO", "CTXS", "CTSH", "CMCSA", "COST", "CSX", "CTRP",
         "XRAY", "DISCA", "DISCK", "DISH","DLTR","EBAY","EA","EXPE","ESRX","FB",
         "FAST","FISV","GILD","HAS","HSIC","HOLX","IDXX","ILMN", "INCY"
     ];
