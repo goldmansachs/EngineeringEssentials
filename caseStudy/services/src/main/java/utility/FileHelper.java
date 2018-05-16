@@ -8,8 +8,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.List;
 /**
@@ -32,54 +30,19 @@ public class FileHelper {
     public static final SimpleDateFormat DATEFORMAT = new SimpleDateFormat("yyyy-MM-dd");
     private static final ObjectMapper mapper = new ObjectMapper();
 
-    public static Company readSingleCompany(String fileName) throws IOException {
-
-        InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName));
-//        InputStream resourceAsStream = FileHelper.class.getClassLoader().getResourceAsStream(fileName);
-        return mapper.readValue(inputStream, new TypeReference<Company>() {});
-    }
-
-    public static List<Company> readAllCompanys(String fileName) throws IOException {
-
-        InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName));
-//        InputStream resourceAsStream = FileHelper.class.getClassLoader().getResourceAsStream(fileName);
+    public static List<Company> readAllCompanies(String fileName) throws
+            IOException {
+        InputStream inputStream = new FileInputStream(fileName);
         return mapper.readValue(inputStream, new TypeReference<List<Company>>() {
         });
     }
 
-    public static List<Company> readCompanysFromFile(String fileName) throws IOException {
-
-        InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName));
-//        InputStream resourceAsStream = FileHelper.class.getClassLoader().getResourceAsStream(fileName);
-        return mapper.readValue(inputStream, new TypeReference<List<Company>>() {});
-    }
-
-    public static Company readCompanyFromFile(String fileName) throws IOException {
-
-        InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName));
-//        InputStream resourceAsStream = FileHelper.class.getClassLoader().getResourceAsStream(fileName);
-        return mapper.readValue(inputStream, new TypeReference<Company>() {});
-    }
-
-    public static void writeCompanysToFile(String fileName, List<Company> Companys) throws IOException {
-
-        mapper.writerWithDefaultPrettyPrinter()
-                .writeValue(new File("data", fileName), Companys);
-    }
-
-    public static void writeCompanyToFile(String fileName, Company Company) throws IOException {
-        mapper.writerWithDefaultPrettyPrinter()
-                .writeValue(new File("data", fileName), Company);
-    }
-
-
-    public static void writeCompanyToFile(String fileName, Company Company) throws IOException {
-        mapper.writerWithDefaultPrettyPrinter()
-                .writeValue(new File("data", fileName), Company);
-    }
-
-    public static void writeCompanysToFile(String fileName, List<Company> scheduledCompanys) throws IOException {
-        mapper.writerWithDefaultPrettyPrinter()
-                .writeValue(new File("data", fileName), scheduledCompanys);
+    public static void main(String[] args) {
+        try {
+            List<Company> companies = readAllCompanies
+                    ("/Users/shreyakeshive/Desktop/EngineeringEssentials/caseStudy/services/src/main/resources/data/companyInfo.json");
+        } catch (IOException e) {
+            System.out.println("error in parsing company.java");
+        }
     }
 }

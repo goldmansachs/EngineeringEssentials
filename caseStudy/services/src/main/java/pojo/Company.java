@@ -28,9 +28,11 @@ public class Company {
     private int numberOfEmployees;
     private String sector;
     private String industry;
-    private Stock[] stocks;
 
-    public Company(String symbol, String name, String headquartersCity, String headquartersStateOrCountry, int numberOfEmployees, String sector, String industry, Stock[] stocks) {
+    public Company() {
+
+    }
+    public Company(String symbol, String name, String headquartersCity, String headquartersStateOrCountry, int numberOfEmployees, String sector, String industry) {
         this.symbol = symbol;
         this.name = name;
         this.headquartersCity = headquartersCity;
@@ -38,7 +40,6 @@ public class Company {
         this.numberOfEmployees = numberOfEmployees;
         this.sector = sector;
         this.industry = industry;
-        this.stocks = stocks;
     }
     
     //GETTERS
@@ -70,9 +71,6 @@ public class Company {
         return industry;
     }
     
-    public Stock[] getStocks() {
-        return stocks;
-    }
 
     //SETTERS
     public String setSymbol(String symbol) {
@@ -108,10 +106,5 @@ public class Company {
     public String setIndustry(String industry) {
         this.industry = industry;
         return industry;
-    }
-
-    public Stock[] setStocks(Stock[] stocks) {
-        this.stocks = stocks;
-        return stocks;
     }
 }
