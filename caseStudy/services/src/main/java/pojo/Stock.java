@@ -67,8 +67,8 @@ public class Stock {
     /** Getter method for start date
      * @return String start date variable in String form
      */
-    public String getDate(){
-        return date.toString();
+    public Calendar getDate(){
+        return date;
     }
 
     /**Setter method for name
@@ -91,7 +91,7 @@ public class Stock {
      * Comparator method
      */
     @Override
-    public int compare(Calendar c) {
-        return date.compareTo(c);
+    public int compare(Stock s) {
+        return date.compareTo(s.getDate());
       }
 }
