@@ -24,6 +24,10 @@ import pojo.Stock;
 
 import javax.ws.rs.core.Application;
 
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -54,12 +58,12 @@ public class StockResourceTest extends JerseyTest {
     @Test
     public void getStatsSymbolDate() {
 
-        Stock response = target().path("stock/AMZN/3-2-2018/4-25-2018").request().get(Stock.class);
+        HashMap<Date,Float> response = target().path("stock/AMZN/3-2-2018/4-25-2018").request().get(HashMap.class);
 
         Stock result = new Stock();
         result.setSymbol("AMZN");
 
-        assertEquals(result.getSymbol(), response.getSymbol());
+        assertEquals(54, response.size());
     }
 
 }

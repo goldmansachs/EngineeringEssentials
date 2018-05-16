@@ -72,35 +72,31 @@ public class StockResource {
                                  @PathParam("endDate") String endDate) throws IOException, ParseException {
 
         List<Stock> data = InputValidator.readAllStocks("historicalStockData.json");
-        HashMap<String, Float> pruned = new HashMap<String, Float>();
+        //HashMap<String, Float> pruned = new HashMap<String, Float>();
         Date start = DATEFORMAT2.parse(startDate);
-        Date end = DATEFORMAT2.parse(startDate);
+        Date end = DATEFORMAT2.parse(endDate);
         Stock result = null;
-        int hello = start.compareTo(end);
         for(Stock s: data)
-            if(s.getSymbol().equalsIgnoreCase(stockName))
+            if(s.getSymbol().equalsIgnoreCase(stockName)) {
                 result = s;
+                break;
+            }
 
         if(result == null)
             return Response.ok().entity("No stock with ticker" + stockName).build();
 
         HashMap<String,Float> map = result.getDailyClosePrice()[0];
+        HashMap<Date,Float> dmap = new HashMap<Date, Float>();
+
         Set<String> keyset = map.keySet();
-        Set<Date> dates = new TreeSet<Date>();
         for(String date : keyset) {
             Date compare = DATEFORMAT.parse(date);
-
             if (compare.compareTo(start) >= 0 && compare.compareTo(end) <= 0)
-                dates.add(compare);
+                dmap.put(compare,map.get(date));
         }
 
-        for(Date d : dates){
-            String s = d.toString();
 
-            pruned.put(s,map.get(s));
-        }
-
-        return Response.ok().entity(pruned).build();
+        return Response.ok().entity(dmap).build();
     }
 
 
