@@ -79,6 +79,7 @@ class StockTicker extends React.Component {
         "XRAY", "DISCA", "DISCK", "DISH","DLTR","EBAY","EA","EXPE","ESRX","FB",
         "FAST","FISV","GILD","HAS","HSIC","HOLX","IDXX","ILMN", "INCY"
     ]
+
     constructor(props) {
         super(props);
         this.state = {
@@ -90,12 +91,14 @@ class StockTicker extends React.Component {
                 state: '',
                 sector: '',
                 industry: ''
-            }
-            company[symbol] = 
             /**
              * TODO
              * Add any additional state to pass via props to the typeahead component.
              */
+            value: '',
+            //options: [GS, AAPL, FB]
+            
+
         };
         this.handleChange = this.handleChange.bind(this);
     }
@@ -113,10 +116,15 @@ class StockTicker extends React.Component {
              * and render it.
              */
             this.setState({showinfo: true});
-
+            let url = event[0];
+            //use get company info using url (case study, services, company)
+            let info = GET(url);
+            this.setState({company: {symbol: info.symbol, name: info.name, city: info.headquartersCity, state: headquartersStateOrCountry, sector: info.sector, industry: info.industry }})
+            
             //this.props.onChange(..);  Call this.props.onChange with the selected symbol to propagate it
             // to the App component, which will handle it via its own onChane prop,
             // ultimately  used to fetch the data for the LineChart component.
+            
 
         }
         else {
