@@ -15,7 +15,7 @@
  */
 
 package pojo;
-import java.util.Date;
+import java.util.Calendar;
 
 /**
  * This class will define a company's end-of-day stock price
