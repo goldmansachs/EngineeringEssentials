@@ -15,6 +15,7 @@
  */
 
 package pojo;
+import java.util.Date;
 
 /**
  * This class will define a company's end-of-day stock price
@@ -23,43 +24,50 @@ package pojo;
 public class Stock {
 
     /** Private variables */
-    private String name;
-    private String startDate;
-    private String endDate;
+    private Calendar date;
+    private double price;
 
     /**Default constructor */
     public Stock(){
-        name = "";
-        startDate = "";
-        endDate = "";
+        date = GregorianCalendar.getInstance();
+        date.clear();
+        price = 0;
     }
 
-    /**Constructor */
-    public Stock(String companyName, String start, String end){
-        name = companyName;
-        startDate = start;
-        endDate = end;
+    /**Constructor 
+     * @param d date string to be parsed
+     * @param p price to be stored
+    */
+    public Stock(String d, String p){
+        //splits date string into month, date, and year
+        String dateAttributes[] = d.split("\\");
+        //Iniatialize Calendar object and clear it
+        date = GregorianCalendar.getInstance();
+        date.clear();
+        //Parse string into integers
+        int year = Integer.parseInt(dateAttributes[2]);
+        int month = Integer.parseInt(dateAttributes[0]);
+        int day = Integer.parseInt(dateAttributes[1]);
+        //Put attributes into Calendar object
+        //Using month-1 because months in Calendar are 0-based
+        date.set(year, month-1, day);
+
+        price = p;
+
     }
 
-    /** Getter method for name
-     * @return String name variable
+    /** Getter method for price
+     * @return String price variable
      */
-    public String getname(){
-        return name;
+    public String getPrice(){
+        return price;
     }
 
     /** Getter method for start date
-     * @return String start date variable
+     * @return String start date variable in String form
      */
-    public String getStart(){
-        return startDate;
-    }
-
-    /** Getter method for end date
-     * @return String end date variable
-     */
-    public String getEnd(){
-        return endDate;
+    public String getDate(){
+        return date.toString();
     }
 
     /**Setter method for name
@@ -70,19 +78,11 @@ public class Stock {
         return name;
     }
 
-    /**Setter method for start date
-     * @return String new start date
+    /**Setter method for date
+     * @return String new date
      */
-    public String setStart(String newStart){
-        startDate = newStart;
-        return startDate;
-    }
-
-    /**Setter method for end date
-     * @return String new end date
-     */
-    public String setEnd(String newEnd){
-        endDate = newEnd;
-        return endDate;
+    public String setEnd(Calendar newDate){
+        date = newDate;
+        return date;
     }
 }
