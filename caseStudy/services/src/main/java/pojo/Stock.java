@@ -17,6 +17,7 @@
 package pojo;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+import java.util.Comparator;
 
 /**
  * This class will define a company's end-of-day stock price
@@ -67,8 +68,8 @@ public class Stock {
     /** Getter method for start date
      * @return String start date variable in String form
      */
-    public String getDate(){
-        return date.toString();
+    public Calendar getDate(){
+        return date;
     }
 
 //    /**Setter method for name
@@ -86,4 +87,12 @@ public class Stock {
         date = newDate;
         return date;
     }
+
+    /**
+     * Comparator method
+     */
+    @Override
+    public int compare(Stock s) {
+        return date.compareTo(s.getDate());
+      }
 }
