@@ -16,11 +16,47 @@
 
 package resources;
 
+import javax.ws.rs.Path;
+
+import pojo.Stock;
+import utility.InputValidator;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
+
 // TODO - add your @Path here
+@Path("stock")
 public class StockResource {
 
     // TODO - Add a @GET resource to get stock data
-    // Your service should return data based on 3 inputs
-    // Stock ticker, start date and end date
+    @GET
+    @Path("status")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getResponse() throws IOException {
+        return Response.status(Response.Status.OK).entity("Stock is now active").build();
+    }
+
+    @GET
+    @Path("{stockName}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getStats(@PathParam("stockName") String stockName) throws IOException {
+
+        List<Stock> data = InputValidator.readAllStocks("historicalStockData.json");
+        Stock result = null;
+        for(Stock s: data)
+            if(s.getSymbol().equalsIgnoreCase(stockName))
+                result = s;
+
+        return Response.ok().entity(result).build();
+    }
+
+
 
 }

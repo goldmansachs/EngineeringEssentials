@@ -18,6 +18,8 @@ package pojo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.HashMap;
+
 /**
  * This class will define a company's end-of-day stock price
  * Look at resources/data/historicalStockData.json
@@ -26,42 +28,30 @@ public class Stock {
 
 	// INSTANCE VARS
     @JsonProperty
-    private String symbol;
+    private String name;
     @JsonProperty
-    private int month;
-    @JsonProperty
-    private int day;
-    @JsonProperty
-    private int year;
-    @JsonProperty
-    private float endOfDayPrice;
+    private HashMap<String,Float> dailyClosePrice[];
 
-    // CONSTRUCTOR
-    public Stock(String symbol, int month, int day, int year,
-    			 float endOfDayPrice) {
-    	this.symbol = symbol;
-    	this.month = month;
-    	this.day = day;
-    	this.year = year;
-    	this.endOfDayPrice = endOfDayPrice;
-    }
 
     // METHODS
 	public String getSymbol() {
-		return this.symbol;
+		return this.name;
 	}
-	public void setSymbol(String symbol) {
-		this.symbol = symbol;
+	public void setSymbol(String name) {
+		this.name = name;
 	}
 
+	public HashMap<String, Float>[] getDailyClosePrice(){ return this.dailyClosePrice; }
+	public void setDailyClosePrice(){ this.dailyClosePrice = dailyClosePrice;}
 
-	public String getDate() {
-		return month + "/" + day + "/" + year;
-	}
-	public void setDate(String date) {
-		this.month = Integer.parseInt(date.substring(0,2));
-		this.day = Integer.parseInt(date.substring(2,4));
-		this.day = Integer.parseInt(date.substring(5));
-	}
+
+//	public String getDate() {
+//		return month + "/" + day + "/" + year;
+//	}
+//	public void setDate(String date) {
+//		this.month = Integer.parseInt(date.substring(0,2));
+//		this.day = Integer.parseInt(date.substring(2,4));
+//		this.day = Integer.parseInt(date.substring(5));
+//	}
 
 }
