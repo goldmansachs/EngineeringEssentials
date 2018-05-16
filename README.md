@@ -1,6 +1,4 @@
-#This is a test comment
-#Test -nazli
-#Test Shreya Comment
+# This is a test comment
 
 # Pull Requests
 
