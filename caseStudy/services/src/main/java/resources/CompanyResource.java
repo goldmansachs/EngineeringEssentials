@@ -16,10 +16,56 @@
 
 package resources;
 
+import pojo.Company;
+import utility.InputValidator;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import java.io.IOException;
+import java.util.List;
+
 // TODO - add your @Path here
+@Path("company")
 public class CompanyResource {
 
     // TODO - Add a @GET resource to get company data
-    // Your service should return data for a given stock ticker
+    @GET
+    @Path("status")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getResponse() throws IOException {
+        return Response.status(Response.Status.OK).entity("Server is now active").build();
+    }
+
+    @GET
+    @Path("name/{companyName}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getStatsName(@PathParam("companyName") String companyName) throws IOException {
+
+        List<Company> companies = InputValidator.readAllCompanies("companyInfo.json");
+        Company result = null;
+        for(Company c : companies)
+            if(c.getName().equalsIgnoreCase(companyName))
+                result = c;
+
+        return Response.ok().entity(result).build();
+    }
+
+    @GET
+    @Path("symbol/{companySymbol}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getStatsSymbol(@PathParam("companySymbol") String companySymbol) throws IOException {
+
+        List<Company> companies = InputValidator.readAllCompanies("companyInfo.json");
+        Company result = null;
+        for(Company c : companies)
+            if(c.getSymbol().equalsIgnoreCase(companySymbol))
+                result = c;
+
+        return Response.ok().entity(result).build();
+    }
 
 }

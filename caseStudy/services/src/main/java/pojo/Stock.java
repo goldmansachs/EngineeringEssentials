@@ -16,6 +16,8 @@
 
 package pojo;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 /**
  * This class will define a company's end-of-day stock price
  * Look at resources/data/historicalStockData.json
@@ -23,11 +25,16 @@ package pojo;
 public class Stock {
 
 	// INSTANCE VARS
-    String symbol;
-    int month;
-    int day;
-    int year;
-    float endOfDayPrice;
+    @JsonProperty
+    private String symbol;
+    @JsonProperty
+    private int month;
+    @JsonProperty
+    private int day;
+    @JsonProperty
+    private int year;
+    @JsonProperty
+    private float endOfDayPrice;
 
     // CONSTRUCTOR
     public Stock(String symbol, int month, int day, int year,
