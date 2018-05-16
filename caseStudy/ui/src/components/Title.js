@@ -8,4 +8,4 @@ function Title(props){
     </div>);
 };
 
-export default Title
+export default Title;
