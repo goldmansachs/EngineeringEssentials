@@ -29,12 +29,16 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 // TODO - add your @Path here
 @Path("stock")
 public class StockResource {
 
+    public static final SimpleDateFormat DATEFORMAT = new SimpleDateFormat("dd/MM/yyyy");
+    public static final SimpleDateFormat DATEFORMAT2 = new SimpleDateFormat("dd-MM-yyyy");
     // TODO - Add a @GET resource to get stock data
     @GET
     @Path("status")
@@ -54,7 +58,49 @@ public class StockResource {
             if(s.getSymbol().equalsIgnoreCase(stockName))
                 result = s;
 
+        if(result == null)
+            return Response.ok().entity("No stock with ticker" + stockName).build();
+
         return Response.ok().entity(result).build();
+    }
+
+    @GET
+    @Path("{stockName}/{startDate}/{endDate}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getStatsDate(@PathParam("stockName") String stockName,
+                                 @PathParam("startDate") String startDate,
+                                 @PathParam("endDate") String endDate) throws IOException, ParseException {
+
+        List<Stock> data = InputValidator.readAllStocks("historicalStockData.json");
+        HashMap<String, Float> pruned = new HashMap<String, Float>();
+        Date start = DATEFORMAT2.parse(startDate);
+        Date end = DATEFORMAT2.parse(startDate);
+        Stock result = null;
+        int hello = start.compareTo(end);
+        for(Stock s: data)
+            if(s.getSymbol().equalsIgnoreCase(stockName))
+                result = s;
+
+        if(result == null)
+            return Response.ok().entity("No stock with ticker" + stockName).build();
+
+        HashMap<String,Float> map = result.getDailyClosePrice()[0];
+        Set<String> keyset = map.keySet();
+        Set<Date> dates = new TreeSet<Date>();
+        for(String date : keyset) {
+            Date compare = DATEFORMAT.parse(date);
+
+            if (compare.compareTo(start) >= 0 && compare.compareTo(end) <= 0)
+                dates.add(compare);
+        }
+
+        for(Date d : dates){
+            String s = d.toString();
+
+            pruned.put(s,map.get(s));
+        }
+
+        return Response.ok().entity(pruned).build();
     }
 
 

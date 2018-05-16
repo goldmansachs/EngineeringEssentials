@@ -51,4 +51,15 @@ public class StockResourceTest extends JerseyTest {
         assertEquals(result.getSymbol(), response.getSymbol());
     }
 
+    @Test
+    public void getStatsSymbolDate() {
+
+        Stock response = target().path("stock/AMZN/3-2-2018/4-25-2018").request().get(Stock.class);
+
+        Stock result = new Stock();
+        result.setSymbol("AMZN");
+
+        assertEquals(result.getSymbol(), response.getSymbol());
+    }
+
 }
