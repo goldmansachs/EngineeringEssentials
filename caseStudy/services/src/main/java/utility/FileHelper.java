@@ -3,6 +3,7 @@ package utility;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import pojo.Company;
+import pojo.Stock;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -37,12 +38,29 @@ public class FileHelper {
         });
     }
 
+    public static List<Stock> readAllStocks(String fileName) throws
+            IOException {
+        InputStream inputStream = new FileInputStream(fileName);
+        return mapper.readValue(inputStream, new TypeReference<List<Stock>>() {
+        });
+    }
+
     public static void main(String[] args) {
         try {
             List<Company> companies = readAllCompanies
                     ("/Users/shreyakeshive/Desktop/EngineeringEssentials/caseStudy/services/src/main/resources/data/companyInfo.json");
         } catch (IOException e) {
             System.out.println("error in parsing company.java");
+        }
+
+        try {
+            List<Stock> stocks = readAllStocks
+                    ("/Users/shreyakeshive/Desktop/EngineeringEssentials" +
+                            "/caseStudy/services/src/main/resources/data" +
+                            "/historicalStockData" +
+                            ".json");
+        } catch (IOException e) {
+            System.out.println("error in parsing stock.java");
         }
     }
 }
