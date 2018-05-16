@@ -22,9 +22,67 @@ package pojo;
  */
 public class Stock {
 
-    // TODO - Think back to your modelling session
-    // Define the attributes of a stock price based on the
-    // provided data in resources/data
+    /** Private variables */
+    private String name;
+    private String startDate;
+    private String endDate;
 
-    // TODO - add getter and setter methods for your attributes
+    /**Default constructor */
+    public Stock(){
+        name = "";
+        startDate = "";
+        endDate = "";
+    }
+
+    /**Constructor */
+    public Stock(String companyName, String start, String end){
+        name = companyName;
+        startDate = start;
+        endDate = end;
+    }
+
+    /** Getter method for name
+     * @return String name variable
+     */
+    public String getname(){
+        return name;
+    }
+
+    /** Getter method for start date
+     * @return String start date variable
+     */
+    public String getStart(){
+        return startDate;
+    }
+
+    /** Getter method for end date
+     * @return String end date variable
+     */
+    public String getEnd(){
+        return endDate;
+    }
+
+    /**Setter method for name
+     * @return String new name
+     */
+    public String setName(String newName){
+        name = newName;
+        return name;
+    }
+
+    /**Setter method for start date
+     * @return String new start date
+     */
+    public String setStart(String newStart){
+        startDate = newStart;
+        return startDate;
+    }
+
+    /**Setter method for end date
+     * @return String new end date
+     */
+    public String setEnd(String newEnd){
+        endDate = newEnd;
+        return endDate;
+    }
 }
