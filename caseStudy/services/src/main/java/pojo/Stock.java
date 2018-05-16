@@ -16,6 +16,7 @@
 
 package pojo;
 import java.util.Calendar;
+import java.util.Comparator;
 
 /**
  * This class will define a company's end-of-day stock price
@@ -85,4 +86,12 @@ public class Stock {
         date = newDate;
         return date;
     }
+
+    /**
+     * Comparator method
+     */
+    @Override
+    public int compare(Calendar c) {
+        return date.compareTo(c);
+      }
 }
