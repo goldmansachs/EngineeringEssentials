@@ -72,6 +72,8 @@ class StockTicker extends React.Component {
      * services.
      */
 
+    
+
     constructor(props) {
         super(props);
         this.state = {
@@ -83,13 +85,19 @@ class StockTicker extends React.Component {
                 state: '',
                 sector: '',
                 industry: ''
-            },
             /**
              * TODO
              * Add any additional state to pass via props to the typeahead component.
              */
             value: '',
             //options: [GS, AAPL, FB]
+            options = [
+                "ATVI", "ADBE", "AKAM", "ALXN", "GOOG", "AMZN", "AAL", "AMGN", "ADI", "AAPL",
+                "AMAT", "ADSK", "ADP", "BIDU", "BIIB", "BMRN", "AVGO", "CA", "CELG", "CERN",
+                "CHTR", "CHKP", "CTAS", "CSCO", "CTXS", "CTSH", "CMCSA", "COST", "CSX", "CTRP",
+                "XRAY", "DISCA", "DISCK", "DISH","DLTR","EBAY","EA","EXPE","ESRX","FB",
+                "FAST","FISV","GILD","HAS","HSIC","HOLX","IDXX","ILMN", "INCY"
+            ];
             
 
         };
