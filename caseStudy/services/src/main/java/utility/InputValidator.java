@@ -19,8 +19,9 @@ public class InputValidator {
     // TODO - write a method that will validate the inputs to the Company Resource
     public static List<Company> readAllCompanies(String fileName) throws IOException {
 
-        InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName));
-//        InputStream resourceAsStream = FileHelper.class.getClassLoader().getResourceAsStream(fileName);
+        InputStream inputStream = new FileInputStream("resources/"+ fileName);
+
+        //        InputStream resourceAsStream = FileHelper.class.getClassLoader().getResourceAsStream(fileName);
         return mapper.readValue(inputStream, new TypeReference<List<Company>>() {
         });
     }

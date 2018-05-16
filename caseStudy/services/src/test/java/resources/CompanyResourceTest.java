@@ -60,6 +60,8 @@ public class CompanyResourceTest extends JerseyTest {
     @Test
     public void getStatsSymbol() {
 
+        Company response = target().path("company/symbol/AMZN").request().get(Company.class);
+
         Company result = new Company();
         result.setSymbol("AMZN");
         result.setName("Amazon.com Inc.");
@@ -69,8 +71,8 @@ public class CompanyResourceTest extends JerseyTest {
         result.setSector("Cyclical Consumer Goods & Services");
         result.setIndustry("Internet & Mail Order Department Stores");
 
-        Company response = target().path("company/symbol/AMZN").request().get(Company.class);
-        assertEquals(result, response);
+        assertEquals(result.getName(), response.getName());
+        assertEquals(result.getNumberOfEmployees(),response.getNumberOfEmployees());
     }
 
 }

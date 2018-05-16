@@ -25,6 +25,7 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
@@ -59,12 +60,14 @@ public class CompanyResource {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getStatsSymbol(@PathParam("companySymbol") String companySymbol) throws IOException {
 
-        List<Company> companies = InputValidator.readAllCompanies("companyInfo.json");
+        String path = "data" + File.separatorChar + "companyInfo.json";
+        List<Company> companies = InputValidator.readAllCompanies(path);
         Company result = null;
         for(Company c : companies)
             if(c.getSymbol().equalsIgnoreCase(companySymbol))
                 result = c;
-
+        if(result == null)
+            return Response.ok().entity("No company found").build();
         return Response.ok().entity(result).build();
     }
 

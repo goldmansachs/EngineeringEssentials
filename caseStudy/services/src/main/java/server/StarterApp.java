@@ -51,7 +51,7 @@ public class StarterApp extends Application<Configuration> {
         StarterApp restServer = new StarterApp();
         restServer.run(args);
 
-        System.out.println("Go to localhost:8080/hello/ok in your browser.");
+        System.out.println("Go to localhost:8080/company/status in your browser.");
     }
 
 }
