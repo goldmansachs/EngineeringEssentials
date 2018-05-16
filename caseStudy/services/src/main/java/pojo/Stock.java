@@ -32,7 +32,7 @@ public class Stock {
     }
 
     public List<HashMap<String, Integer>> setDailyClosePrice(List<HashMap<String, Integer>>
-                                                              dailyClosePrice) {
+                                                                     dailyClosePrice) {
         this.dailyClosePrice = dailyClosePrice;
         return dailyClosePrice;
     }

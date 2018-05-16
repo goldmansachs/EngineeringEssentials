@@ -16,7 +16,11 @@
 
 import React from 'react';
 import './style/App.css';
-
+import Date from './components/Date'
+import StockTicker from './components/StockTicker';
+import LineChart from './components/charts/LineChart'
+import SolChart from './components/charts/SolChart'
+import companyData from './historicalStockData.json';
 /**
  * TODO:
  * Import your components
@@ -37,13 +41,7 @@ class App extends React.Component{
 
 
 
-
-
-    render () {
-      return (
-          <div className="page-display">
-              <div className="input">
-              {/**
+     /**
                * TODO
                * Render the StockTicker and Date components. You can use the date component twice
                * for both the start and end dates.
@@ -51,13 +49,30 @@ class App extends React.Component{
                * These props methods should set state and help determine if the
                * highchart should be displayed by changing the state of that boolean.
                * Don't forget to bind these methods!
-               */}
+               */
 
+    render () {
+      return (
+          <div className="page-display">
+              <div className="input">
+              {
+                <div><StockTicker />
+              
                 <div className="date-range">
 
-                </div>
-              </div>
+                <div className='data-input'>
+                <Date text='Start Date' /></div> 
 
+                <div className='data-input'>
+                <Date text='End Date' /></div> 
+
+
+                </div></div>
+                }
+              </div>
+              <div>
+                <SolChart info="GS" data={companyData} />
+             </div>
 
                  {/**
                    *  TODO
