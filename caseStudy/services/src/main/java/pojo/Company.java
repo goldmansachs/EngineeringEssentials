@@ -21,10 +21,86 @@ package pojo;
  * Look at resources/data/companyInfo.json
  */
 public class Company {
+    private String symbol;
+    private String name;
+    private String headquartersCity;
+    private String headquartersStateOrCountry;
+    private int numberOfEmployees;
+    private String sector;
+    private String industry;
 
-    // TODO - Think back to your modelling session
-    // Define the attributes of a Company based on the
-    // provided data in resources/data
+    public Company(String symbol, String name, String headquartersCity, String headquartersStateOrCountry, int numberOfEmployees, String sector, String industry) {
+        this.symbol = symbol;
+        this.name = name;
+        this.headquartersCity = headquartersCity;
+        this.headquartersStateOrCountry = headquartersStateOrCountry;
+        this.numberOfEmployees = numberOfEmployees;
+        this.sector = sector;
+        this.industry = industry;
+    }
+    
+    //GETTERS
+    public String getSymbol() {
+        return symbol;
+    }
 
-    // TODO - add getter and setter methods for your attributes
+    public String getName() {
+        return name;
+    }
+
+    public String getHeadquartersCity() {
+        return headquartersCity;
+    }
+    
+    public String getHeadquartersStateOrCountry() {
+        return headquartersStateOrCountry;
+    }
+
+    public int getNumberOfEmployees() {
+        return numberOfEmployees;
+    }
+
+    public String getSector() {
+        return sector;
+    }
+
+    public String getIndustry() {
+        return industry;
+    }
+
+    //SETTERS
+    public String setSymbol(String symbol) {
+        this.symbol = symbol;
+        return symbol;
+    }
+
+    public String setName(String name) {
+        this.name = name;
+        return name;
+    }
+
+    public String setHeadquartersCity(String headquartersCity) {
+        this.headquartersCity = headquartersCity;
+        return headquartersCity;
+    }
+    
+    public String setHeadquartersStateOrCountry(String headquartersStateOrCountry) {
+        this.headquartersStateOrCountry = headquartersStateOrCountry;
+        return headquartersStateOrCountry;
+    }
+
+    public int setNumberOfEmployees(int numberOfEmployees) {
+        this.numberOfEmployees = numberOfEmployees;
+        return numberOfEmployees;
+    }
+
+    public String setSector(String sector) {
+        this.sector = sector;
+        return sector;
+    }
+
+    public String setIndustry(String industry) {
+        this.industry = industry;
+        return industry;
+    }
 }
