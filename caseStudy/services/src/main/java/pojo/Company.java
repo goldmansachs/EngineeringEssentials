@@ -22,9 +22,81 @@ package pojo;
  */
 public class Company {
 
-    // TODO - Think back to your modelling session
-    // Define the attributes of a Company based on the
-    // provided data in resources/data
+	// INSTANCE VARS
+	String symbol;
+	String name;
+	String headquartersCity;
+	String headquartersStateOrCountry;
+	int numberOfEmployees;
+	String sector;
+	String industry;
 
-    // TODO - add getter and setter methods for your attributes
+	// CONSTRUCTOR
+	public Company(String symbol, String name, String headquartersCity, 
+				   String headquartersStateOrCountry, int numberOfEmployees,
+				   String sector, String industry) {
+		this.symbol = symbol;
+		this.name = name;
+		this.headquartersCity = headquartersCity;
+		this.headquartersStateOrCountry = headquartersStateOrCountry;
+		this.numberOfEmployees = numberOfEmployees;
+		this.sector = sector;
+		this.industry = industry;
+	}
+
+	// METHODS
+	public String getSymbol() {
+		return this.symbol;
+	}
+	public void setSymbol(String symbol) {
+		this.symbol = symbol;
+	}
+
+
+	public String getName() {
+		return this.name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public String getHeadquartersCity() {
+		return this.headquartersCity;
+	}
+	public void setHeadquartersCity(String headquartersCity) {
+		this.headquartersCity = headquartersCity;
+	}
+
+
+	public String getHeadquartersStateOrCountry(String headquartersStateOrCountry) {
+		return this.headquartersStateOrCountry;
+	}
+	public void setHeadquartersStateOrCountry(String headquartersStateOrCountry) {
+		this.headquartersStateOrCountry = headquartersStateOrCountry;
+	}
+
+
+	public int getNumberOfEmployees() {
+		return this.numberOfEmployees;
+	}
+	public void setNumberOfEmployees(int numberOfEmployees) {
+		this.numberOfEmployees = numberOfEmployees;
+	}
+
+
+	public String getSector() {
+		return this.sector;
+	}
+	public void setSector(String sector) {
+		this.sector = sector;
+	}
+
+
+	public String getIndustry() {
+		return this.industry;
+	}
+	public void setIndustry(String industry) {
+
+	}
 }
