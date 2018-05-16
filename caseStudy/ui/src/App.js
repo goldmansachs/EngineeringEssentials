@@ -16,6 +16,7 @@
 
 import React from 'react';
 import './style/App.css';
+import StockTicker from './components/StockTicker'
 
 /**
  * TODO:
@@ -52,8 +53,11 @@ class App extends React.Component{
                * highchart should be displayed by changing the state of that boolean.
                * Don't forget to bind these methods!
                */}
+               
+               <StockTicker/>
 
                 <div className="date-range">
+                    
 
                 </div>
               </div>

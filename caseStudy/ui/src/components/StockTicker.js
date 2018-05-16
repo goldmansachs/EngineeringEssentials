@@ -72,7 +72,13 @@ class StockTicker extends React.Component {
      * services.
      */
 
-    
+    // options = [
+    //     "ATVI", "ADBE", "AKAM", "ALXN", "GOOG", "AMZN", "AAL", "AMGN", "ADI", "AAPL",
+    //     "AMAT", "ADSK", "ADP", "BIDU", "BIIB", "BMRN", "AVGO", "CA", "CELG", "CERN",
+    //     "CHTR", "CHKP", "CTAS", "CSCO", "CTXS", "CTSH", "CMCSA", "COST", "CSX", "CTRP",
+    //     "XRAY", "DISCA", "DISCK", "DISH","DLTR","EBAY","EA","EXPE","ESRX","FB",
+    //     "FAST","FISV","GILD","HAS","HSIC","HOLX","IDXX","ILMN", "INCY"
+    // ];
 
     constructor(props) {
         super(props);
@@ -84,21 +90,20 @@ class StockTicker extends React.Component {
                 city: '',
                 state: '',
                 sector: '',
-                industry: ''
+                industry: ''},
             /**
              * TODO
              * Add any additional state to pass via props to the typeahead component.
              */
-            value: '',
+           // value: '',
             //options: [GS, AAPL, FB]
-            options = [
+            options : [
                 "ATVI", "ADBE", "AKAM", "ALXN", "GOOG", "AMZN", "AAL", "AMGN", "ADI", "AAPL",
                 "AMAT", "ADSK", "ADP", "BIDU", "BIIB", "BMRN", "AVGO", "CA", "CELG", "CERN",
                 "CHTR", "CHKP", "CTAS", "CSCO", "CTXS", "CTSH", "CMCSA", "COST", "CSX", "CTRP",
                 "XRAY", "DISCA", "DISCK", "DISH","DLTR","EBAY","EA","EXPE","ESRX","FB",
                 "FAST","FISV","GILD","HAS","HSIC","HOLX","IDXX","ILMN", "INCY"
-            ];
-            
+            ]
 
         };
         this.handleChange = this.handleChange.bind(this);
@@ -116,21 +121,23 @@ class StockTicker extends React.Component {
              * to handle errors). If you successfully retrieve this information, you can set the state objects
              * and render it.
              */
-            this.setState({showinfo: true});
-            let url = event[0];
+            
+            this.setState({showcompanyinfo: true});
+
             //use get company info using url (case study, services, company)
-            let info = GET(url);
-            this.setState({company: {symbol: info.symbol, name: info.name, city: info.headquartersCity, state: headquartersStateOrCountry, sector: info.sector, industry: info.industry }})
+            let info = GET(event[0].symbol); //change
+            this.setState({company: {symbol: info.symbol, name: info.name, city: info.headquartersCity, state: info.headquartersStateOrCountry, sector: info.sector, industry: info.industry }})
             
             //this.props.onChange(..);  Call this.props.onChange with the selected symbol to propagate it
             // to the App component, which will handle it via its own onChane prop,
             // ultimately  used to fetch the data for the LineChart component.
+            this.props.onChange(this.state.showcompanyinfo, this.state.company)
             
 
         }
         else {
-            this.setState({showinfo: false});
-            this.props.onChange(undefined);
+            this.setState({showcompanyinfo: false});
+            this.props.onChange(this.state.showcompanyinfo, null);
         }
     }
 
@@ -171,6 +178,9 @@ class StockTicker extends React.Component {
                      *  be maintained as a state object.
                      *  http://reactpatterns.com/#conditional-rendering
                      */
+                    this.state.showcompanyinfo
+                    ? <h1>{this.state.company.name}</h1>
+                    : <h1></h1>
                 }
             </div>
         );
@@ -179,3 +189,4 @@ class StockTicker extends React.Component {
 }
 
 //Don't forget to export your component!
+export default StockTicker
