@@ -67,7 +67,8 @@ public class CompanyResource {
                 result = c;
         if(result == null)
             return Response.ok().entity("No company found").build();
-        return Response.ok().entity(result).build();
+        return Response.ok().entity(result).header("Access-Control-Allow-Origin","*")
+        .header("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT").build();
     }
 
 }
