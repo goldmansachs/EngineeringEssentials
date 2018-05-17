@@ -41,27 +41,27 @@ public class ResourcesTest extends JerseyTest {
     private static ObjectMapper mapper = new ObjectMapper();
 
 
-    @Override
+    //@Override
     protected Application configure() {
         return new ResourceConfig(
-                Example2Resource.class,
-                Example3Resource.class,
-                Example4Resource.class,
-                Example5Resource.class,
-                Example6Resource.class,
-                Example7Resource.class,
-                Example8Resource.class,
-                Example9Resource.class,
-                Example10Resource.class,
-                Example11Resource.class,
-                Example12Resource.class
+                Example2Resource.class
+//                Example3Resource.class,
+//                Example4Resource.class,
+//                Example5Resource.class,
+//                Example6Resource.class,
+//                Example7Resource.class,
+//                Example8Resource.class,
+//                Example9Resource.class,
+//                Example10Resource.class,
+//                Example11Resource.class,
+//                Example12Resource.class
         );
     }
 
     @Test
     public void testExample2() {
         String response = target().path("events/test").request().get(String.class);
-        assertEquals("Welcome to Engineering Essentials Services Training!", response);
+        assertEquals("Hello, world!", response);
     }
 
     @Test
