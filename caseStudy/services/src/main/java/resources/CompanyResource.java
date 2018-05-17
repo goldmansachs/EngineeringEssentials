@@ -60,8 +60,7 @@ public class CompanyResource {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getStatsSymbol(@PathParam("companySymbol") String companySymbol) throws IOException {
 
-        String path = "data" + File.separatorChar + "companyInfo.json";
-        List<Company> companies = InputValidator.readAllCompanies(path);
+        List<Company> companies = InputValidator.readAllCompanies("companyInfo.json");
         Company result = null;
         for(Company c : companies)
             if(c.getSymbol().equalsIgnoreCase(companySymbol))

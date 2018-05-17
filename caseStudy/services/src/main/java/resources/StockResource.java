@@ -37,8 +37,8 @@ import java.util.*;
 @Path("stock")
 public class StockResource {
 
-    public static final SimpleDateFormat DATEFORMAT = new SimpleDateFormat("dd/MM/yyyy");
-    public static final SimpleDateFormat DATEFORMAT2 = new SimpleDateFormat("dd-MM-yyyy");
+    public static final SimpleDateFormat DATEFORMAT = new SimpleDateFormat("MM/dd/yyyy");
+    public static final SimpleDateFormat DATEFORMAT2 = new SimpleDateFormat("MM-dd-yyyy");
     // TODO - Add a @GET resource to get stock data
     @GET
     @Path("status")
@@ -72,7 +72,6 @@ public class StockResource {
                                  @PathParam("endDate") String endDate) throws IOException, ParseException {
 
         List<Stock> data = InputValidator.readAllStocks("historicalStockData.json");
-        //HashMap<String, Float> pruned = new HashMap<String, Float>();
         Date start = DATEFORMAT2.parse(startDate);
         Date end = DATEFORMAT2.parse(endDate);
         Stock result = null;

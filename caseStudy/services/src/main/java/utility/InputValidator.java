@@ -20,7 +20,7 @@ public class InputValidator {
 
     public static List<Company> readAllCompanies(String fileName) throws IOException {
 
-        InputStream inputStream = new FileInputStream("resources/"+ fileName);
+        InputStream inputStream = new FileInputStream("resources/data/"+ fileName);
 
         //        InputStream resourceAsStream = FileHelper.class.getClassLoader().getResourceAsStream(fileName);
         return mapper.readValue(inputStream, new TypeReference<List<Company>>() {

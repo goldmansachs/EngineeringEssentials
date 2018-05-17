@@ -57,6 +57,24 @@ public class CompanyResourceTest extends JerseyTest {
 
         assertEquals("Server is now active", response);
     }
+
+    @Test
+    public void getStatsName() {
+
+        Company response = target().path("company/name/Amazon.com Inc.").request().get(Company.class);
+
+        Company result = new Company();
+        result.setSymbol("AMZN");
+        result.setName("Amazon.com Inc.");
+        result.setHeadquartersCity("Seattle");
+        result.setHeadquartersStateOrCountry("WA");
+        result.setNumberOfEmployees(341000);
+        result.setSector("Cyclical Consumer Goods & Services");
+        result.setIndustry("Internet & Mail Order Department Stores");
+
+        assertEquals(result.getName(), response.getName());
+        assertEquals(result.getNumberOfEmployees(),response.getNumberOfEmployees());
+    }
     @Test
     public void getStatsSymbol() {
 

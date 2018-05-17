@@ -44,6 +44,7 @@ public class StockResourceTest extends JerseyTest {
     }
 
     // TODO - write a test for each method in the CompanyResource class
+
     @Test
     public void getStatsSymbol() {
 
@@ -63,7 +64,7 @@ public class StockResourceTest extends JerseyTest {
         Stock result = new Stock();
         result.setSymbol("AMZN");
 
-        assertEquals(54, response.size());
+        assertEquals(39, response.size());
     }
 
 }
