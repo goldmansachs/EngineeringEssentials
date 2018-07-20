@@ -71,6 +71,15 @@ class StockTicker extends React.Component {
      * If you are having difficulty with this, you may hard code the options array from the company data provided for the
      * services.
      */
+
+    // options = [
+    //     "ATVI", "ADBE", "AKAM", "ALXN", "GOOG", "AMZN", "AAL", "AMGN", "ADI", "AAPL",
+    //     "AMAT", "ADSK", "ADP", "BIDU", "BIIB", "BMRN", "AVGO", "CA", "CELG", "CERN",
+    //     "CHTR", "CHKP", "CTAS", "CSCO", "CTXS", "CTSH", "CMCSA", "COST", "CSX", "CTRP",
+    //     "XRAY", "DISCA", "DISCK", "DISH","DLTR","EBAY","EA","EXPE","ESRX","FB",
+    //     "FAST","FISV","GILD","HAS","HSIC","HOLX","IDXX","ILMN", "INCY"
+    // ];
+
     constructor(props) {
         super(props);
         this.state = {
@@ -81,18 +90,28 @@ class StockTicker extends React.Component {
                 city: '',
                 state: '',
                 sector: '',
-                industry: ''
-            }
+                industry: ''},
             /**
              * TODO
              * Add any additional state to pass via props to the typeahead component.
              */
+           // value: '',
+            //options: [GS, AAPL, FB]
+            options : [
+                "ATVI", "ADBE", "AKAM", "ALXN", "GOOG", "AMZN", "AAL", "AMGN", "ADI", "AAPL",
+                "AMAT", "ADSK", "ADP", "BIDU", "BIIB", "BMRN", "AVGO", "CA", "CELG", "CERN",
+                "CHTR", "CHKP", "CTAS", "CSCO", "CTXS", "CTSH", "CMCSA", "COST", "CSX", "CTRP",
+                "XRAY", "DISCA", "DISCK", "DISH","DLTR","EBAY","EA","EXPE","ESRX","FB",
+                "FAST","FISV","GILD","HAS","HSIC","HOLX","IDXX","ILMN", "INCY"
+            ],
+            value: ''
+
         };
         this.handleChange = this.handleChange.bind(this);
     }
 
     handleChange(event) {
-        if (event.length > 0) {
+        // if (event.length > 0) {
             /**
              * TODO
              * Make a request to your service to GET company information for the selected company and set it in state.
@@ -103,17 +122,45 @@ class StockTicker extends React.Component {
              * to handle errors). If you successfully retrieve this information, you can set the state objects
              * and render it.
              */
-            this.setState({showinfo: true});
+            
+            this.setState({showcompanyinfo: true});
+            // this.setState({value:event[0].symbol})
 
+            //use get company info using url (case study, services, company)
+           // let info = GET(event[0].symbol); //change
+            // let info = {
+            //     "symbol":"ADBE",
+            //     "name":"Adobe Systems Incorporated",
+            //     "headquartersCity":"Santa Jose",
+            //     "headquartersStateOrCountry":"CA",
+            //     "numberOfEmployees":10000,
+            //     "sector":"Technology",
+            //     "industry":"Application Software"
+            // }
+            let info = {
+                "symbol":"ADBE",
+                "name":"Adobe Systems Incorporated",
+                "headquartersCity":"Santa Jose",
+                "headquartersStateOrCountry":"CA",
+                "numberOfEmployees":10000,
+                "sector":"Technology",
+                "industry":"Application Software"
+            }
+
+            this.setState({value:  event.target.value})
+            this.setState({company: {symbol: info.symbol, name: info.name, city: info.headquartersCity, state: info.headquartersStateOrCountry, sector: info.sector, industry: info.industry }})
+            this.setState({title:event.target.value})
             //this.props.onChange(..);  Call this.props.onChange with the selected symbol to propagate it
             // to the App component, which will handle it via its own onChane prop,
             // ultimately  used to fetch the data for the LineChart component.
+            this.props.onChange(this.state.showcompanyinfo, this.state.company)
+            
 
-        }
-        else {
-            this.setState({showinfo: false});
-            this.props.onChange(undefined);
-        }
+        // }
+        // else {
+        //     this.setState({showcompanyinfo: false});
+        //     this.props.onChange(this.state.showcompanyinfo, null);
+        // }
     }
 
 
@@ -146,6 +193,11 @@ class StockTicker extends React.Component {
                     </div>
                 </div>
                 {
+                    <input type='text' name='title' value={this.state.title} 
+                    onChange={this.handleChange.bind(this)}/>
+                }
+                {
+                    
                     /**
                      *  TODO
                      *  Create a div element that shows a company information when the ticker changes. You will need to use a conditional here
@@ -153,7 +205,11 @@ class StockTicker extends React.Component {
                      *  be maintained as a state object.
                      *  http://reactpatterns.com/#conditional-rendering
                      */
+                    this.state.showcompanyinfo
+                    ? <h1>{this.state.value}</h1>
+                    : <h1></h1>
                 }
+                
             </div>
         );
     }
@@ -161,3 +217,4 @@ class StockTicker extends React.Component {
 }
 
 //Don't forget to export your component!
+export default StockTicker

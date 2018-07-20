@@ -22,9 +22,39 @@ package pojo;
  */
 public class Stock {
 
-    // TODO - Think back to your modelling session
-    // Define the attributes of a stock price based on the
-    // provided data in resources/data
+	// INSTANCE VARS
+    String symbol;
+    int month;
+    int day;
+    int year;
+    float endOfDayPrice;
 
-    // TODO - add getter and setter methods for your attributes
+    // CONSTRUCTOR
+    public Stock(String symbol, int month, int day, int year,
+    			 float endOfDayPrice) {
+    	this.symbol = symbol;
+    	this.month = month;
+    	this.day = day;
+    	this.year = year;
+    	this.endOfDayPrice = endOfDayPrice;
+    }
+
+    // METHODS
+	public String getSymbol() {
+		return this.symbol;
+	}
+	public void setSymbol(String symbol) {
+		this.symbol = symbol;
+	}
+
+
+	public String getDate() {
+		return month + "/" + day + "/" + year;
+	}
+	public void setDate(String date) {
+		this.month = Integer.parseInt(date.substring(0,2));
+		this.day = Integer.parseInt(date.substring(2,4));
+		this.day = Integer.parseInt(date.substring(5));
+	}
+
 }
