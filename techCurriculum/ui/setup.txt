@@ -1,4 +1,4 @@
-Copyright 2018 Goldman Sachs.
+Copyright 2019 Goldman Sachs.
         Licensed under the Apache License, Version 2.0 (the "License");
         you may not use this file except in compliance with the License.
         You may obtain a copy of the License at
@@ -14,8 +14,8 @@ Copyright 2018 Goldman Sachs.
 # Prerequisites
 
 - IDE e.g. Sublime Text, Visual Studio Code
-- Node (v7.x, v6.x, or v4.x should all be fine)
-- npm (v2.x)
+- Node (v10.x and up should all be fine)
+- npm (v6.x)
 - git (v2.x)
 - clone the goldmansachs/EngineeringEssentials GitHub repository
 
@@ -23,10 +23,8 @@ Copyright 2018 Goldman Sachs.
 
 - We will assume you have the repository in the root of a drive, e.g. H:\
 - File structure will look like: H:\EngineeringEssentials\techCurriculum\ui\starter_code\cards-app\...
-- Run the following commands to get set up with the boiler plate code
+- Run the following command to get set up with the boiler plate code
     
-    > H:\...>npm install -g create-react-app
-        * This globally installs Facebook's create-react-app tool
     > H:\EngineeringEssentials\techCurriculum\ui\starter_code\cards-app>npm install
         * Installs the initial dependencies for this project (mainly vanilla React libraries)
 

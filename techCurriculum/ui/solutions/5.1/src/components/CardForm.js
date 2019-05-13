@@ -1,5 +1,5 @@
 /**
-* Copyright 2018 Goldman Sachs.
+* Copyright 2019 Goldman Sachs.
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
 * You may obtain a copy of the License at
@@ -17,26 +17,21 @@
 import React from 'react';
 import TextInput from './TextInput.js'
 import Select from 'react-select';
-import 'react-select/dist/react-select.css';
-
 class CardForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {username: '', message: ''};
-    this.handleSubmit = this.handleSubmit.bind(this);
-    this.handleUsernameChange = this.handleUsernameChange.bind(this);
-    this.handleMessageChange = this.handleMessageChange.bind(this);
   }
 
-  handleUsernameChange(value) {
+  handleUsernameChange = (value) => {
     this.setState({username: value});
   }
 
-  handleMessageChange(value) {
+  handleMessageChange = (value) => {
     this.setState({message: value});
   }
 
-  handleSubmit(event) {
+  handleSubmit = (event) => {
     event.preventDefault();
     this.props.onSubmit(this.state.username, this.state.message);
   }
@@ -51,7 +46,7 @@ class CardForm extends React.Component {
         <h2>Add a Card</h2>
         <TextInput name='username' label='Username' value={this.state.username} onChange={this.handleUsernameChange}/>
         <TextInput name='message' label='Message' value={this.state.message} onChange={this.handleMessageChange}/>
-        <Select options={tagOptions} multi/>
+        <Select options={tagOptions} isMulti/>
         <br />
         <button className='btn btn-primary' onClick={this.handleSubmit}>Submit</button>
       </form>

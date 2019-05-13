@@ -1,5 +1,5 @@
 /**
-* Copyright 2018 Goldman Sachs.
+* Copyright 2019 Goldman Sachs.
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
 * You may obtain a copy of the License at
@@ -14,9 +14,9 @@
 * under the License.
 **/
 
-import React from 'react';
+import React from './node_modules/react';
 
-function User() {
+const User = () => {
   return (
     <div className='user'>
       <i className='fa fa-user-o'/>
