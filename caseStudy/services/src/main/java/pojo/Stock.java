@@ -15,6 +15,9 @@
  */
 
 package pojo;
+import java.util.HashMap;
+import java.lang.String;
+import java.lang.Double;
 
 /**
  * This class will define a company's end-of-day stock price
@@ -26,5 +29,31 @@ public class Stock {
     // Define the attributes of a stock price based on the
     // provided data in resources/data
 
+    String name;
+    HashMap<String, Double> prices = new HashMap();
+
+    public Stock(String name, HashMap prices) {
+        this.name = name;
+        this.prices = prices;
+    }
+
     // TODO - add getter and setter methods for your attributes
+
+    void setName(String newName) {
+        name = newName;
+    }
+
+    String getName() {
+        return name;
+    }
+
+    void setPriceByDate(String date, Double newPrice) {
+        prices.put(date, newPrice);
+        // if want to return NULL if the date doesn't exist, use REPLACE
+        // prices.replace(date, newPrice);
+    }
+
+    Double getPriceByDate(String date) {
+        return prices.get(date);
+    }
 }
