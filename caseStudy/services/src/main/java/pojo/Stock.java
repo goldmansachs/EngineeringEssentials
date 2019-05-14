@@ -34,6 +34,7 @@ public class Stock {
 
     public Stock(String name, HashMap prices) {
         this.name = name;
+        // need to normalize the prices; sort by date
         this.prices = prices;
     }
 
