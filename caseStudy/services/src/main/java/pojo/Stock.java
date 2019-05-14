@@ -16,8 +16,13 @@
 
 package pojo;
 import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
 import java.lang.String;
 import java.lang.Double;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+import java.text.ParseException;
 
 /**
  * This class will define a company's end-of-day stock price
@@ -25,20 +30,26 @@ import java.lang.Double;
  */
 public class Stock {
 
-    // TODO - Think back to your modelling session
-    // Define the attributes of a stock price based on the
-    // provided data in resources/data
-
     String name;
-    HashMap<String, Double> prices = new HashMap();
+    Map<Date, Double> prices = new HashMap();
 
-    public Stock(String name, HashMap prices) {
+    public Stock(String name, HashMap<String, Double> temp) throws ParseException{
         this.name = name;
-        // need to normalize the prices; sort by date
-        this.prices = prices;
+
+        HashMap<Date, Double> modTemp = new HashMap();
+        for (HashMap.Entry<String, Double> entry : temp.entrySet()) {
+            String pattern = "MM/dd/yyyy";
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+            Date date = simpleDateFormat.parse(entry.getKey());
+            modTemp.put(date, entry.getValue());
+        }
+
+        // Sort MOD TEMP by date (key).
+        Map<Date, Double> map = new TreeMap(modTemp);
+        this.prices = map;
     }
 
-    // TODO - add getter and setter methods for your attributes
+    // Getter and setter methods
 
     void setName(String newName) {
         name = newName;
@@ -48,13 +59,19 @@ public class Stock {
         return name;
     }
 
-    void setPriceByDate(String date, Double newPrice) {
-        prices.put(date, newPrice);
+    void setPriceByDate(String date, Double newPrice) throws ParseException{
+        String pattern = "MM/dd/yyyy";
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+        Date date1 = simpleDateFormat.parse(date);
+        prices.put(date1, newPrice);
+
         // if want to return NULL if the date doesn't exist, use REPLACE
-        // prices.replace(date, newPrice);
     }
 
-    Double getPriceByDate(String date) {
-        return prices.get(date);
+    Double getPriceByDate(String date) throws ParseException{
+        String pattern = "MM/dd/yyyy";
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+        Date date1 = simpleDateFormat.parse(date);
+        return prices.get(date1);
     }
 }
