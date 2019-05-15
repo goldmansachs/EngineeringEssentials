@@ -17,7 +17,7 @@
 import React from 'react';
 import LineChart from './charts/LineChart';
 
-class Charts extends React.Component {
+export default class Charts extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -74,14 +74,15 @@ class Charts extends React.Component {
          *
          *  Don't forget to bind the helper method in the constructor!
          * */
-}
+    }
     
     render() {
         /**
          * TODO
          * Render your LineChart component and pass the data for the chart to display via props
          */
+        return(
+            <LineChart />
+        );
     }
 }
-
-// Don't forget to export your component!
