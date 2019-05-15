@@ -20,6 +20,7 @@ import '../stylesheet.css';
 import App from './App.js'
 
 //CHANGE TEST
+//TEST 2
 ReactDOM.render(
   <App/>,
   document.getElementById('root')
