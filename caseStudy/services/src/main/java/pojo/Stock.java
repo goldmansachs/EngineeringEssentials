@@ -28,12 +28,13 @@ import java.util.Date;
 public class Stock {
     // Define the attributes of a stock price based on the
     // provided data in resources/data
-
+    String ticker;
     ArrayList<Price> prices;
     Date startDate;
     Date endDate;
 
-    public Stock(ArrayList<Price> prices){
+    public Stock(String ticker, ArrayList<Price> prices){
+        this.ticker = ticker;
         this.prices = prices;
         sortPrices();
         this.startDate = prices.get(0).getDate();
@@ -45,10 +46,17 @@ public class Stock {
         Collections.sort(prices, compare);
     }
 
+    public void setTicker(String ticker) {
+        this.ticker = ticker;
+    }
 
     public void setPrices(ArrayList<Price> prices) {
         this.prices = prices;
         sortPrices();
+    }
+
+    public String getTicker() {
+        return ticker;
     }
 
     public ArrayList<Price> getPrices() {
