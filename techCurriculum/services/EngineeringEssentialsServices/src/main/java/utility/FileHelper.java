@@ -36,7 +36,7 @@ public class FileHelper {
 
     public static Event readSingleEvent(String fileName) throws IOException {
 
-        InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName));
+        InputStream inputStream = new FileInputStream((" data" + File.separatorChar + fileName));
 //        InputStream resourceAsStream = FileHelper.class.getClassLoader().getResourceAsStream(fileName);
         return mapper.readValue(inputStream, new TypeReference<Event>() {});
     }
