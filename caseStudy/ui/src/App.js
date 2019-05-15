@@ -45,6 +45,7 @@ class App extends React.Component{
     render () {
       return (
           <div className="page-display">
+            <h1>Stock Visualization App</h1>
               <div className="input">
               {
               <StockTicker onChange={this.handleChange} />
