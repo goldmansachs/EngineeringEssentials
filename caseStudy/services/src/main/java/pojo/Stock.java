@@ -29,7 +29,6 @@ import java.text.ParseException;
  * This class will define a company's end-of-day stock price
  * Look at resources/data/historicalStockData.json
  */
-
 public class Stock {
 
     public String name;
@@ -76,6 +75,10 @@ public class Stock {
         prices.put(date1, newPrice);
 
         // if want to return NULL if the date doesn't exist, use REPLACE
+    }
+
+    public SortedMap<Date, Double> getPrices() {
+        return prices;
     }
 
     public Double getPriceByDate(String date) throws ParseException{
