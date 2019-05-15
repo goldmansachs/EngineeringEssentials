@@ -18,6 +18,7 @@ package pojo;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.SortedMap;
 import java.lang.String;
 import java.lang.Double;
 import java.util.Date;
@@ -30,23 +31,17 @@ import java.text.ParseException;
  */
 public class Stock {
 
-    private String name;
-    private Map<Date, Double> prices = new HashMap();
+    public String name;
+    public SortedMap<Date, Double> prices = new TreeMap();
 
     public Stock(String name, HashMap<String, Double> temp) throws ParseException{
         this.name = name;
-
-        HashMap<Date, Double> modTemp = new HashMap();
         for (HashMap.Entry<String, Double> entry : temp.entrySet()) {
             String pattern = "MM/dd/yyyy";
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
             Date date = simpleDateFormat.parse(entry.getKey());
-            modTemp.put(date, entry.getValue());
+            this.prices.put(date, entry.getValue());
         }
-
-        // Sort MOD TEMP by date (key).
-        Map<Date, Double> map = new TreeMap(modTemp);
-        this.prices = map;
     }
 
     public boolean equals(Stock obj) {
@@ -88,4 +83,33 @@ public class Stock {
         Date date1 = simpleDateFormat.parse(date);
         return prices.get(date1);
     }
+
+    public SortedMap<Date, Double> pricesBetweenDates(String dateStart, String dateEnd) throws ParseException{
+        String pattern = "MM/dd/yyyy";
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+        Date date1 = simpleDateFormat.parse(dateStart);
+        Date date2 = simpleDateFormat.parse(dateEnd);
+
+        SortedMap<Date, Double> pricesInRange = prices.subMap(date1, date2);
+        return pricesInRange;
+    }
+
+    public SortedMap<Date, Double> pricesFromStartDate(String dateStart) throws ParseException{
+        String pattern = "MM/dd/yyyy";
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+        Date date1 = simpleDateFormat.parse(dateStart);
+
+        SortedMap<Date, Double> pricesInRange = prices.tailMap(date1);
+        return pricesInRange;
+    }
+
+    public SortedMap<Date, Double> pricesToEndDate(String dateEnd) throws ParseException{
+        String pattern = "MM/dd/yyyy";
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+        Date date1 = simpleDateFormat.parse(dateEnd);
+
+        SortedMap<Date, Double> pricesInRange = prices.headMap(date1);
+        return pricesInRange;
+    }
+
 }
