@@ -55,7 +55,7 @@ import React from 'react';
  * https://github.com/ericgio/react-bootstrap-typeahead/blob/master/example/examples/AsyncExample.react.js
  */
 
-class StockTicker extends React.Component {
+export default class StockTicker extends React.Component {
 
     /**
      * TODO
