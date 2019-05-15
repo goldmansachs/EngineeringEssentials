@@ -16,21 +16,16 @@
 
 package resources;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.core.type.TypeReference;
-import pojo.Company;
-
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.io.IOException;
+import pojo.Company;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.List;
-import java.io.File;
-import java.io.FileInputStream;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import resources.FileHelper;
+
+import jdk.nashorn.internal.objects.annotations.Getter;
 
     // Your service should return data for a given stock ticker
 
@@ -42,18 +37,12 @@ public class CompanyResource {
     @GET
     public Response getCompanyForTicker(String ticker) throws IOException {
 
-        List<Company> companies = readAllCompanies();
+        List<Company> companies = FileHelper.readAllCompanies("companyInfo.json");
 
         // Need to get .json object
         //Company company; //get the company for ticker
         //return Response.ok().entity(company).build();
-
+        return Response.ok().entity(companies).build();
     }
 
-    public static List<Company> readAllCompanies() throws IOException {
-
-        InputStream inputStream = new FileInputStream(("./resources/data" + File.separatorChar + "companyInfo.json"));
-        return mapper.readValue(inputStream, new TypeReference<List<Company>>() {
-        });
-    }
 }
