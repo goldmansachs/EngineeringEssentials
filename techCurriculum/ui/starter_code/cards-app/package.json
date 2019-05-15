@@ -4,8 +4,12 @@
   "private": true,
   "dependencies": {
     "create-react-class": "^15.5.3",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "highcharts": "5.0.11",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-datepicker": "^2.5.0",
+    "react-select": "^2.4.3"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
@@ -15,5 +19,20 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

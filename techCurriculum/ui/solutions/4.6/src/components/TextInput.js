@@ -1,5 +1,5 @@
 /**
-* Copyright 2018 Goldman Sachs.
+* Copyright 2019 Goldman Sachs.
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
 * You may obtain a copy of the License at
@@ -20,10 +20,9 @@ class TextInput extends React.Component {
   constructor(props) {
     super(props);
     this.state = { value: '' };
-    this.handleChange = this.handleChange.bind(this);
   }
 
-  handleChange(event) {
+  handleChange = (event) => {
     const value = event.target.value;
     this.setState({value: value});
   }
