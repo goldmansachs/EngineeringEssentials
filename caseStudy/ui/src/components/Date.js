@@ -14,9 +14,6 @@
  * under the License.
  */
 
-
-
-
 /* Display a date picker component for the start date of the range for your line chart.
  *
  * Take a look at the react-datepicker for a DatePicker component
@@ -24,12 +21,12 @@
  * another package for this component if you'd like.
  * https://www.npmjs.com/package/react-datepicker
  * https://hacker0x01.github.io/react-datepicker/
- */
+*/
 
 import React from 'react';
+import moment from 'moment';
 import DatePicker from 'react-datepicker'; 
 // UNCOMMENT this line if you are using the DatePicker component
-import moment from 'moment';
 import 'react-datepicker/dist/react-datepicker.css'; 
 // UNCOMMENT this line if you are using the DatePicker component
 
