@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-=======
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
->>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -11,15 +7,7 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
-=======
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
->>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
   </component>
 </project>

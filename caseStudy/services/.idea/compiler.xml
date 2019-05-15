@@ -6,14 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="stock-visualization-app" />
+        <module name="services" />
       </profile>
     </annotationProcessing>
-<<<<<<< HEAD
     <bytecodeTargetLevel>
-      <module name="stock-visualization-app" target="1.5" />
+      <module name="services" target="1.5" />
     </bytecodeTargetLevel>
-=======
->>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
   </component>
 </project>
