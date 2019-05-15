@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="456135f1-909c-48b5-8017-605b7cc21edf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__EngineeringEssentials_engineering_essentials_Examples_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__ch_qos_logback_logback_access_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_guava_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__com_papertrail_profiler_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_dropwizard_configuration_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_dropwizard_core_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_dropwizard_jackson_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_dropwizard_jersey_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_dropwizard_jetty_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_dropwizard_lifecycle_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_dropwizard_logging_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_dropwizard_metrics_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_dropwizard_request_logging_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_dropwizard_servlets_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_dropwizard_util_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_dropwizard_validation_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_metrics_metrics_annotation_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_metrics_metrics_healthchecks_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jersey2_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jetty9_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_metrics_metrics_logback_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__io_dropwizard_metrics_metrics_servlets_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__javax_el_javax_el_api_2_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__joda_time_joda_time_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__net_sourceforge_argparse4j_argparse4j_0_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_2_v20170220.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_2_v20170220.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_2_v20170220.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_2_v20170220.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_2_v20170220.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_2_v20170220.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_2_v20170220.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_2_v20170220.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_2_v20170220.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_2_v20170220.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_eclipse_jetty_toolchain_setuid_jetty_setuid_java_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_framework_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_http_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_http_server_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_http_servlet_2_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_grizzly2_http_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_grizzly2_servlet_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_bean_validation_2_25_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_metainf_services_2_25_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_test_framework_jersey_test_framework_core_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_jersey_test_framework_providers_jersey_test_framework_provider_grizzly2_2_22_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_glassfish_web_javax_el_2_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_ow2_asm_asm_debug_all_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example2Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example2Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example3Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example3Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/starter_code/cards-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/starter_code/cards-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/starter_code/cards-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/starter_code/cards-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/starter_code/cards-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/starter_code/cards-app/src/index.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/EngineeringEssentialsServices/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example1Resource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/test/java/resources/ResourcesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example2Resource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example3Resource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-657">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/resources/backup/single-event.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/pom.xml" />
+        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java" />
+        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example3Resource.java" />
+        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example2Resource.java" />
+        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="engineering-essentials" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="engineering-essentials-services" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="engineering-essentials-services" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="engineering-essentials-services" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/engineering-essentials.iml" />
+        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/engineering-essentials-services.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__EngineeringEssentials_engineering_essentials_Examples_1_0_SNAPSHOT.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_access_1_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_guava_2_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_joda_2_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_8_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_21_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_papertrail_profiler_1_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_configuration_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_core_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_jackson_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_jersey_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_jetty_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_lifecycle_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_logging_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_metrics_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_request_logging_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_servlets_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_util_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_dropwizard_validation_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_annotation_3_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_healthchecks_3_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jersey2_3_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jetty9_3_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_logback_3_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_servlets_3_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_2_2_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_argparse4j_argparse4j_0_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_2_v20170220.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_2_v20170220.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_2_v20170220.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_2_v20170220.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_2_v20170220.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_2_v20170220.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_2_v20170220.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_2_v20170220.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_2_v20170220.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_2_v20170220.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_toolchain_setuid_jetty_setuid_java_1_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_framework_2_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_http_2_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_http_server_2_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_http_servlet_2_3_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b31.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b31.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b31.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b31.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b31.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_el_3_0_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_grizzly2_http_2_22_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_grizzly2_servlet_2_22_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_22_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_22_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_bean_validation_2_25_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_metainf_services_2_25_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_22_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_test_framework_jersey_test_framework_core_2_22_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_test_framework_providers_jersey_test_framework_provider_grizzly2_2_22_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_javax_el_2_2_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_4_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_debug_all_5_0_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_24.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_24.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="backup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ResourcesTest">
+    <configuration name="StarterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.StarterApp" />
+      <module name="engineering-essentials-services" />
+      <option name="PROGRAM_PARAMETERS" value="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourcesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="engineering-essentials-services" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="resources" />
+      <option name="MAIN_CLASS_NAME" value="resources.ResourcesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="startApp" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="server" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/EngineeringEssentialsServices" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.StarterApp" />
+      <item itemvalue="Maven.startApp" />
+      <item itemvalue="JUnit.ResourcesTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ResourcesTest" />
+        <item itemvalue="Application.StarterApp" />
+        <item itemvalue="Maven.startApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="456135f1-909c-48b5-8017-605b7cc21edf" name="Default Changelist" comment="" />
+      <created>1557841306004</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557841306004</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ResourcesTest - 2019.05.14 at 10h 19m 41s.xml">
+      <configuration name="ResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest - 2019.05.14 at 10h 21m 03s.xml">
+      <configuration name="ResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest - 2019.05.14 at 10h 23m 35s.xml">
+      <configuration name="ResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest - 2019.05.14 at 10h 40m 17s.xml">
+      <configuration name="ResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest - 2019.05.14 at 10h 45m 43s.xml">
+      <configuration name="ResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest - 2019.05.14 at 11h 18m 46s.xml">
+      <configuration name="ResourcesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ResourcesTest - 2019.05.14 at 11h 33m 53s.xml">
+      <configuration name="ResourcesTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26746988" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" weight="0.13590844" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/solutions/Example2SolutionResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example1Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/test/java/resources/ResourcesTestSolutions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-577">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/resources/backup/single-event.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-657">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/test/java/resources/ResourcesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example2Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example3Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>
