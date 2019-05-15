@@ -30,8 +30,8 @@ import java.text.ParseException;
  */
 public class Stock {
 
-    String name;
-    Map<Date, Double> prices = new HashMap();
+    private String name;
+    private Map<Date, Double> prices = new HashMap();
 
     public Stock(String name, HashMap<String, Double> temp) throws ParseException{
         this.name = name;
@@ -49,17 +49,31 @@ public class Stock {
         this.prices = map;
     }
 
+    public boolean equals(Stock obj) {
+        if(this == obj) {
+            return true;
+        }
+
+        if(obj == null || obj.getClass()!= this.getClass()) {
+            return false;
+        }
+        // type casting of the argument.
+        Stock obj1 = (Stock) obj;
+
+
+        return (obj1.name == this.name && obj1.prices == this.prices);
+    }
     // Getter and setter methods
 
-    void setName(String newName) {
+    public void setName(String newName) {
         name = newName;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
-    void setPriceByDate(String date, Double newPrice) throws ParseException{
+    public void setPriceByDate(String date, Double newPrice) throws ParseException{
         String pattern = "MM/dd/yyyy";
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
         Date date1 = simpleDateFormat.parse(date);
@@ -68,7 +82,7 @@ public class Stock {
         // if want to return NULL if the date doesn't exist, use REPLACE
     }
 
-    Double getPriceByDate(String date) throws ParseException{
+    public Double getPriceByDate(String date) throws ParseException{
         String pattern = "MM/dd/yyyy";
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
         Date date1 = simpleDateFormat.parse(date);
