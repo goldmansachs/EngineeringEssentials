@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="engineering-essentials-services" target="1.5" />
+      <module name="engineering-essentials-services" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
