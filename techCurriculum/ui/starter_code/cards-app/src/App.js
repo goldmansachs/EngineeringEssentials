@@ -15,13 +15,18 @@
 **/
 
 import React from 'react';
+import Title from './components/Title.js';
+import Card from './components/Card.js';
+import TextInput from './components/TextInput.js';
 
 function App() {
-  return (
-    <div>
-      <h1>Hello World 2</h1>
-    </div>
-  );
+    return (
+        <div>,
+            <Title/>
+            <Card author = 'John Smith' text = 'React is cool'/>
+            <TextInput/>
+        </div>
+    );
 }
 
 export default App;

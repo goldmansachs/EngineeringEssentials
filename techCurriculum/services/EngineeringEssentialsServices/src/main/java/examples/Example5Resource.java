@@ -2,6 +2,7 @@ package examples;
 
 
 import model.Event;
+import utility.FileHelper;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -42,9 +43,10 @@ public class Example5Resource {
      */
     @GET
     @Path("all")
+    @Produces(MediaType.APPLICATION_JSON)
     public Response getAllEvents() throws IOException {
 
-        List<Event> events = null;
+        List<Event> events = FileHelper.readAllEvents("C:/Users/Girls Who Code/Documents/Goldman Sachs Engineering Essentials Materials/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/data/single-event.json");
         return Response.ok().entity(events).build();
     }
 }

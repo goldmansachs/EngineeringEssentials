@@ -36,14 +36,14 @@ public class FileHelper {
 
     public static Event readSingleEvent(String fileName) throws IOException {
 
-        InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName));
+        InputStream inputStream = new FileInputStream(fileName);
 //        InputStream resourceAsStream = FileHelper.class.getClassLoader().getResourceAsStream(fileName);
         return mapper.readValue(inputStream, new TypeReference<Event>() {});
     }
 
     public static List<Event> readAllEvents(String fileName) throws IOException {
 
-        InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName));
+        InputStream inputStream = new FileInputStream(fileName);
 //        InputStream resourceAsStream = FileHelper.class.getClassLoader().getResourceAsStream(fileName);
         return mapper.readValue(inputStream, new TypeReference<List<Event>>() {
         });

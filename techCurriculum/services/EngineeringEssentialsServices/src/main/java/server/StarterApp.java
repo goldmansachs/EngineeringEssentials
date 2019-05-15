@@ -70,17 +70,17 @@ public class StarterApp extends Application<Configuration> {
     public void run(Configuration c, Environment e) throws Exception {
         LOGGER.info("Registering REST resources");
         e.jersey().register(new Example1Resource());
-//        e.jersey().register(new Example2Resource());
-//        e.jersey().register(new Example3Resource());
-//        e.jersey().register(new Example4Resource());
-//        e.jersey().register(new Example5Resource());
-//        e.jersey().register(new Example6Resource());
-//        e.jersey().register(new Example7Resource());
-//        e.jersey().register(new Example8Resource());
-//        e.jersey().register(new Example9Resource());
-//        e.jersey().register(new Example10Resource());
-//        e.jersey().register(new Example11Resource());
-//        e.jersey().register(new Example12Resource());
+        e.jersey().register(new Example2Resource());
+        e.jersey().register(new Example3Resource());
+        e.jersey().register(new Example4Resource());
+        e.jersey().register(new Example5Resource());
+        e.jersey().register(new Example6Resource());
+        e.jersey().register(new Example7Resource());
+        e.jersey().register(new Example8Resource());
+        e.jersey().register(new Example9Resource());
+        e.jersey().register(new Example10Resource());
+        e.jersey().register(new Example11Resource());
+        e.jersey().register(new Example12Resource());
         LOGGER.info("Successfully started REST Service.");
     }
 
@@ -96,7 +96,6 @@ public class StarterApp extends Application<Configuration> {
 
         StarterApp restServer = new StarterApp();
         restServer.run(args);
-
         System.out.println("Go to localhost:8080/hello/ok in your browser.");
     }
 
