@@ -16,4 +16,3 @@ As part of the technical curriculum, you will learn how to model a system, build
 
 Apply the knowledge that you have learned from the modelling, services and UI learning sessions to build a stock visualization application
 
-## Test
