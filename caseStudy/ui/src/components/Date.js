@@ -32,7 +32,7 @@ import moment from 'moment';
 
 //import 'react-datepicker/dist/react-datepicker.css'; UNCOMMENT this line if you are using the DatePicker component
 
-class Date extends React.Component {
+export default class Date extends React.Component {
     constructor (props) {
         super(props)
         this.state = {
@@ -76,5 +76,3 @@ class Date extends React.Component {
 
 
 }
-
-// Don't forget to export your component!

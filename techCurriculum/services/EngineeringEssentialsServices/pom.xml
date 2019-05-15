@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
         Copyright 2018 Goldman Sachs.
         Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,8 +12,6 @@
         specific language governing permissions and limitations
         under the License.
 -->
-
-<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -25,27 +24,25 @@
 
     <artifactId>engineering-essentials-services</artifactId>
     <dependencies>
-        <dependency>
+        <!-- <dependency>
             <groupId>EngineeringEssentials</groupId>
-            <artifactId>engineering-essentials-Examples</artifactId>
+            <artifactId>engineering-essentials-examples</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency> -->
+    <dependency>
+            <groupId>org.glassfish.jersey.test-framework</groupId>
+            <artifactId>jersey-test-framework-core</artifactId>
+            <version>2.22.1</version>
+    </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-grizzly2-servlet</artifactId>
+            <version>2.22.1</version>
         </dependency>
     </dependencies>
-
-    <!--<dependency>-->
-            <!--<groupId>org.glassfish.jersey.test-framework</groupId>-->
-            <!--<artifactId>jersey-test-framework-core</artifactId>-->
-            <!--<version>2.22.1</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>javax.servlet</groupId>-->
-            <!--<artifactId>javax.servlet-api</artifactId>-->
-            <!--<version>3.0.1</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>org.glassfish.jersey.containers</groupId>-->
-            <!--<artifactId>jersey-container-grizzly2-servlet</artifactId>-->
-            <!--<version>2.22.1</version>-->
-        <!--</dependency>-->
-
 </project>

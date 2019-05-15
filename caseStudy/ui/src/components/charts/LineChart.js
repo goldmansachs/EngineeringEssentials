@@ -17,7 +17,7 @@
 import React from 'react';
 import Highcharts from 'highcharts';
 
-class LineChart extends React.Component {
+export default class LineChart extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -64,5 +64,3 @@ class LineChart extends React.Component {
         )
     }
 }
-
-// Don't forget to export your component!
