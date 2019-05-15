@@ -9,8 +9,11 @@
         <module name="stock-visualization-app" />
       </profile>
     </annotationProcessing>
+<<<<<<< HEAD
     <bytecodeTargetLevel>
       <module name="stock-visualization-app" target="1.5" />
     </bytecodeTargetLevel>
+=======
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
   </component>
 </project>

@@ -20,15 +20,15 @@ package utility;
  * Utility class to validate inputs
  */
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import pojo.Company;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.*;
+import java.util.List;
 
 public class InputValidator {
 
@@ -36,13 +36,30 @@ public class InputValidator {
     // TODO - write a method that will validate your JSON input files
     public static List<Company> readAllCompanies (String fileName) throws IOException {
        if (fileName != null ) {
-           InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName))
-       };
+           InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName));
+           return mapper.readValue(inputStream, new TypeReference<Company>() {});
+       }
+       else
+           return null;
+
 
     }
 
     // TODO - write a method that will validate the inputs to the Company Resource
 
+    public Boolean validateCompany(String stockTicker) {
+        if (stockTicker == null) return false;
+        else return true;
+    }
+
     // TODO - write a method that will validate the inputs to the Stock Resource
+
+    public Boolean validateStock (String stockTicker, String startDate, String endDate) {
+        if (stockTicker == null || startDate == null || endDate == null) {
+            return false;
+        }
+        else
+            return true;
+    }
 
 }

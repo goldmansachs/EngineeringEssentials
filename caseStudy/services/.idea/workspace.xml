@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="70785e88-9e8f-499f-a1fd-8b6dbf578849" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
@@ -16,6 +17,24 @@
       <change beforePath="$PROJECT_DIR$/../../techCurriculum/services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../techCurriculum/services/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
+=======
+    <list default="true" id="502afe9f-4e99-4633-bcab-d868525a9375" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../techCurriculum/services/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../techCurriculum/services/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../techCurriculum/services/EngineeringEssentialsServices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../techCurriculum/services/EngineeringEssentialsServices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example3Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example3Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../techCurriculum/services/EngineeringEssentialsServices/src/main/java/server/StarterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../techCurriculum/services/EngineeringEssentialsServices/src/main/java/server/StarterApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../techCurriculum/services/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../techCurriculum/services/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../techCurriculum/services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../techCurriculum/services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../techCurriculum/ui/starter_code/cards-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../techCurriculum/ui/starter_code/cards-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../techCurriculum/ui/starter_code/cards-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../techCurriculum/ui/starter_code/cards-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../techCurriculum/ui/starter_code/cards-app/src/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../techCurriculum/ui/starter_code/cards-app/src/stylesheet.css" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +42,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
@@ -38,24 +58,101 @@
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/companyInfo.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/historicalStockData.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/readme.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/resources/StockResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Company.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/resources/CompanyResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1313#1314#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1381#1382#0" expanded="true" />
+                <element signature="e#1408#1409#0" expanded="true" />
+                <element signature="e#1452#1453#0" expanded="true" />
+                <element signature="e#1471#1472#0" expanded="true" />
+                <element signature="e#1534#1535#0" expanded="true" />
+                <element signature="e#1573#1574#0" expanded="true" />
+                <element signature="e#1621#1622#0" expanded="true" />
+                <element signature="e#1676#1677#0" expanded="true" />
+                <element signature="e#1734#1735#0" expanded="true" />
+                <element signature="e#1782#1783#0" expanded="true" />
+                <element signature="e#1992#1993#0" expanded="true" />
+                <element signature="e#2031#2032#0" expanded="true" />
+                <element signature="e#2099#2100#0" expanded="true" />
+                <element signature="e#2118#2119#0" expanded="true" />
+                <element signature="e#2194#2195#0" expanded="true" />
+                <element signature="e#2222#2223#0" expanded="true" />
+                <element signature="e#2271#2272#0" expanded="true" />
+                <element signature="e#2307#2308#0" expanded="true" />
+                <element signature="e#2346#2347#0" expanded="true" />
+                <element signature="e#2375#2376#0" expanded="true" />
+                <element signature="e#2429#2430#0" expanded="true" />
+                <element signature="e#2459#2460#0" expanded="true" />
+              </folding>
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
             </state>
           </provider>
         </entry>
@@ -69,10 +166,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/utility/InputValidator.java" />
       </list>
     </option>
   </component>
+=======
+        <option value="$PROJECT_DIR$/src/main/java/pojo/Company.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -80,6 +193,19 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="stock-visualization-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+<<<<<<< HEAD
+=======
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-visualization-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="stock-visualization-app" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
       </expand>
       <select />
     </treeState>
@@ -87,19 +213,31 @@
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/stock-visualization-app.iml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
+=======
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="53" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
+=======
+    <option name="x" value="23" />
+    <option name="y" value="32" />
+    <option name="width" value="838" />
+    <option name="height" value="785" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -107,8 +245,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,22 +283,41 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="utility" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
             </path>
             <path>
               <item name="stock-visualization-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="target" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
             </path>
             <path>
               <item name="stock-visualization-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
             </path>
             <path>
               <item name="stock-visualization-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="target" type="462c0819:PsiDirectoryNode" />
               <item name="classes" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
@@ -168,6 +330,19 @@
               <item name="stock-visualization-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+=======
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock-visualization-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
             </path>
           </expand>
           <select />
@@ -176,10 +351,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+=======
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -198,19 +378,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="70785e88-9e8f-499f-a1fd-8b6dbf578849" name="Default Changelist" comment="" />
       <created>1557934337612</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557934337612</updated>
+=======
+      <changelist id="502afe9f-4e99-4633-bcab-d868525a9375" name="Default Changelist" comment="" />
+      <created>1557931161673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557931161673</updated>
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="53" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+=======
+    <frame x="23" y="32" width="838" height="785" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39321607" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -227,6 +422,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -260,6 +456,82 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
+=======
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.22262444" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/companyInfo.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/historicalStockData.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/readme.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/StockResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/resources/CompanyResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pojo/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
+            <element signature="e#2118#2119#0" expanded="true" />
+            <element signature="e#2194#2195#0" expanded="true" />
+            <element signature="e#2222#2223#0" expanded="true" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2307#2308#0" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#2375#2376#0" expanded="true" />
+            <element signature="e#2429#2430#0" expanded="true" />
+            <element signature="e#2459#2460#0" expanded="true" />
+>>>>>>> fbf93d644e917d80dc011c76a9915ecbea83bdae
           </folding>
         </state>
       </provider>

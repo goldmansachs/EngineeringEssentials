@@ -1,5 +1,5 @@
 /**
-* Copyright 2018 Goldman Sachs.
+* Copyright 2019 Goldman Sachs.
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
 * You may obtain a copy of the License at
@@ -17,7 +17,6 @@
 import React from 'react';
 import TextInput from './TextInput.js'
 import Select from 'react-select';
-import 'react-select/dist/react-select.css';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
@@ -25,32 +24,26 @@ class CardForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = {username: '', message: '', tags: [], dateStamp: undefined};
-    this.handleSubmit = this.handleSubmit.bind(this);
-    this.handleUsernameChange = this.handleUsernameChange.bind(this);
-    this.handleMessageChange = this.handleMessageChange.bind(this);
-    this.handleTagsChange = this.handleTagsChange.bind(this);
-    this.handleDateStampChange = this.handleDateStampChange.bind(this);
   }
 
-  handleUsernameChange(value) {
+  handleUsernameChange = (value) => {
     this.setState({username: value});
   }
 
-  handleMessageChange(value) {
+  handleMessageChange = (value) => {
     this.setState({message: value});
   }
 
-  handleSubmit(event) {
+  handleSubmit = (event) => {
     event.preventDefault();
     this.props.onSubmit(this.state.username, this.state.message, this.state.tags);
   }
 
-  handleTagsChange(tagList) {
-    const tagValues = tagList.map(tag => tag.value);
-    this.setState({tags: tagValues});
+  handleTagsChange = (tagList) => {
+    this.setState({tags: tagList});
   }
 
-  handleDateStampChange(dateStamp) {
+  handleDateStampChange = (dateStamp) => {
     this.setState({dateStamp: dateStamp});
   }
 
@@ -64,7 +57,7 @@ class CardForm extends React.Component {
         <h2>Add a Card</h2>
         <TextInput name='username' label='Username' value={this.state.username} onChange={this.handleUsernameChange}/>
         <TextInput name='message' label='Message' value={this.state.message} onChange={this.handleMessageChange}/>
-        <Select options={tagOptions} multi value={this.state.tags} onChange={this.handleTagsChange}/>
+        <Select options={tagOptions} isMulti value={this.state.tags} onChange={this.handleTagsChange}/>
         <br />
         <DatePicker selected={this.state.dateStamp} onChange={this.handleDateStampChange} />
         <br /><br />
