@@ -5,7 +5,9 @@
   "dependencies": {
     "create-react-class": "^15.5.3",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-datepicker": "^2.5.0",
+    "react-dom": "^15.5.4",
+    "react-select": "^2.4.3"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
