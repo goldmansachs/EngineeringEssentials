@@ -83,3 +83,8 @@ export default class Charts extends React.Component {
          */
     }
 }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 26dc435d9a58103b81d07ea6d6b5d40c71cdf1e0
