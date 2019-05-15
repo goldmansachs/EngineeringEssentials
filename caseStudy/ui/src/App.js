@@ -17,6 +17,7 @@
 import React from 'react';
 import './style/App.css';
 import Date from './components/Date.js';
+import StockTicker from "./components/StockTicker";
 
 /**
  * TODO:
@@ -55,7 +56,7 @@ class App extends React.Component{
                    * Don't forget to bind these methods!
                    */}
 
-
+                  <StockTicker />
                   <div className="date-range">
                       <Date text="Start Date"/>
                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -66,6 +67,7 @@ class App extends React.Component{
                   {/*    /!*<Date text="Start Date"/>*!/*/}
                   {/*    <Date text="End Date"/>*/}
                   {/*</div>*/}
+
 
               </div>
 

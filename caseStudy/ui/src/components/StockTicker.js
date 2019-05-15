@@ -39,7 +39,7 @@
  * https://www.npmjs.com/package/react-select
  * http://jedwatson.github.io/react-select/
  * https://github.com/JedWatson/react-select
- * 
+ *
  * react-boostrap-typeahead
  * https://www.npmjs.com/package/react-bootstrap-typeahead
  * http://ericgio.github.io/react-bootstrap-typeahead/
@@ -47,10 +47,11 @@
  */
 
 import React from 'react';
+
 //import {Typeahead} from 'react-bootstrap-typeahead'; UNCOMMENT this line if you are using the react-bootstrap-typeeahead component
 
-/* If you chose to use react-boostrap-typeahead, look at AsyncTypeahead for a component that 
- * provides auto-complete suggestions as you type. This would require adding a search handler 
+/* If you chose to use react-boostrap-typeahead, look at AsyncTypeahead for a component that
+ * provides auto-complete suggestions as you type. This would require adding a search handler
  * method for an onSearch prop.
  * https://github.com/ericgio/react-bootstrap-typeahead/blob/master/example/examples/AsyncExample.react.js
  */
@@ -71,17 +72,18 @@ class StockTicker extends React.Component {
      * If you are having difficulty with this, you may hard code the options array from the company data provided for the
      * services.
      */
+
     constructor(props) {
         super(props);
         this.state = {
             showcompanyinfo: false, //TODO: Use this boolean to determine if the company information should be rendered
             company : {
-                symbol: '',
-                name: '',
-                city: '',
-                state: '',
+                symbol: 'GS',
+                name: 'Goldman Sachs',
+                city: 'SDCM',
+                state: 'NJ',
                 sector: '',
-                industry: ''
+                industry: 'IB'
             }
             /**
              * TODO
@@ -103,8 +105,8 @@ class StockTicker extends React.Component {
              * to handle errors). If you successfully retrieve this information, you can set the state objects
              * and render it.
              */
-            this.setState({showinfo: true});
-
+            this.setState({showcompanyinfo: true});
+            this.props.onChange(event);
             //this.props.onChange(..);  Call this.props.onChange with the selected symbol to propagate it
             // to the App component, which will handle it via its own onChane prop,
             // ultimately  used to fetch the data for the LineChart component.
@@ -131,6 +133,7 @@ class StockTicker extends React.Component {
             <div className="stockticker">
                 <div className="ticker-input">
                     <p><strong>Stock Ticker</strong></p>
+                    <input type='text' className='form-control' name={this.props.name} value={this.props.value} onChange={this.handleChange} />
                     <div className="stockticker-typeahead">
                         {/* useful props if you decide to use react-bootstrap-typeahead
                         <Typeahead
@@ -146,6 +149,20 @@ class StockTicker extends React.Component {
                     </div>
                 </div>
                 {
+                    <div>
+                        {this.state.showcompanyInfo ? (
+                            <p>{this.state.company.symbol.toString()}</p>,
+                                <p>{this.state.company.name.toString()}</p>,
+                                <p>{this.state.company.state.toString()}</p>,
+                                <p>{this.state.company.city.toString()}</p>,
+                                <p>{this.state.company.industry.toString()}</p>
+
+                        ) : (
+                            <p> Enter Info</p>
+                        )}
+
+
+                    </div>
                     /**
                      *  TODO
                      *  Create a div element that shows a company information when the ticker changes. You will need to use a conditional here
@@ -160,4 +177,4 @@ class StockTicker extends React.Component {
 
 }
 
-//Don't forget to export your component!
+export default StockTicker;//Don't forget to export your component!
