@@ -29,6 +29,7 @@ public class Company {
     private int numEmployees;
     private String sector;
     private String industry;
+    private Stock stockHistory;
 
     public String getSymbol() {
         return symbol;
@@ -84,6 +85,14 @@ public class Company {
 
     public void setIndustry(String industry) {
         this.industry = industry;
+    }
+
+    public Stock getStockHistory() {
+        return this.stockHistory;
+    }
+
+    public void setStockHistory(Stock stockHistory) {
+        this.stockHistory = stockHistory;
     }
 
     @Override

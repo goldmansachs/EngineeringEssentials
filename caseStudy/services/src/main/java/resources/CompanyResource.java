@@ -16,10 +16,26 @@
 
 package resources;
 
-// TODO - add your @Path here
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import java.io.IOException;
+import pojo.Company;
+
+    // Your service should return data for a given stock ticker
+
+@Path("companies")
 public class CompanyResource {
 
-    // TODO - Add a @GET resource to get company data
-    // Your service should return data for a given stock ticker
+    @GET
+    public Response getCompanyForTicker(String ticker) throws IOException {
+
+        // Need to get .json object
+        Company company; //
+        return Response.ok().entity(company).build();
+
+    }
 
 }
