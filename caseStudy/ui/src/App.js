@@ -16,6 +16,7 @@
 
 import React from 'react';
 import './style/App.css';
+import Date from './components/Date.js';
 
 /**
  * TODO:
@@ -42,31 +43,41 @@ class App extends React.Component{
     render () {
       return (
           <div className="page-display">
+
               <div className="input">
-              {/**
-               * TODO
-               * Render the StockTicker and Date components. You can use the date component twice
-               * for both the start and end dates.
-               * Add onChange props to the StockTicker and both Date components.
-               * These props methods should set state and help determine if the
-               * highchart should be displayed by changing the state of that boolean.
-               * Don't forget to bind these methods!
-               */}
+                  {/**
+                   * TODO
+                   * Render the StockTicker and Date components. You can use the date component twice
+                   * for both the start and end dates.
+                   * Add onChange props to the StockTicker and both Date components.
+                   * These props methods should set state and help determine if the
+                   * highchart should be displayed by changing the state of that boolean.
+                   * Don't forget to bind these methods!
+                   */}
 
-                <div className="date-range">
 
-                </div>
+                  <div className="date-range">
+                      <Date text="Start Date"/>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <Date text="End Date"/>
+                  </div>
+
+                  {/*<div className="date-range">*/}
+                  {/*    /!*<Date text="Start Date"/>*!/*/}
+                  {/*    <Date text="End Date"/>*/}
+                  {/*</div>*/}
+
               </div>
 
 
-                 {/**
-                   *  TODO
-                   *  Create a div element that shows a highchart when the ticker, start date, end date
-                   *  states ALL have values and nothing (null) otherwise. You will need to use a conditional here
-                   *  to help control rendering and pass these states as props to the component. This conditional can
-                   *  be maintained as a state object.
-                   *  http://reactpatterns.com/#conditional-rendering
-                   */}
+              {/**
+               *  TODO
+               *  Create a div element that shows a highchart when the ticker, start date, end date
+               *  states ALL have values and nothing (null) otherwise. You will need to use a conditional here
+               *  to help control rendering and pass these states as props to the component. This conditional can
+               *  be maintained as a state object.
+               *  http://reactpatterns.com/#conditional-rendering
+               */}
 
           </div>
       );

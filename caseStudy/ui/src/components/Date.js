@@ -25,12 +25,12 @@
  * https://www.npmjs.com/package/react-datepicker
  * https://hacker0x01.github.io/react-datepicker/
  */
-
+// import createFragment from 'react-addons-create-fragment';
 import React from 'react';
-//import DatePicker from 'react-datepicker'; UNCOMMENT this line if you are using the DatePicker component
+import DatePicker from 'react-datepicker';// UNCOMMENT this line if you are using the DatePicker component
 import moment from 'moment';
 
-//import 'react-datepicker/dist/react-datepicker.css'; UNCOMMENT this line if you are using the DatePicker component
+import 'react-datepicker/dist/react-datepicker.css';// UNCOMMENT this line if you are using the DatePicker component
 
 class Date extends React.Component {
     constructor (props) {
@@ -38,6 +38,8 @@ class Date extends React.Component {
         this.state = {
             date: moment()
         };
+        // onChange = this.onChange()
+        this.handleChange = this.handleChange.bind(this);
 
     }
 
@@ -52,7 +54,12 @@ class Date extends React.Component {
          * to propagate the change to App component, which will handle it via its
          * own onChange prop.
          */
+        this.setState({date: date});
     }
+
+    // onChange() {
+    //
+    // }
 
     render() {
         return (
@@ -66,9 +73,12 @@ class Date extends React.Component {
                      *
                      */
                 }
-                <p><strong>{this.props.text}</strong></p>
-                <div className="date-input">
 
+                <p><strong>{this.props.text}</strong></p>
+
+                <div className="date-input">
+                    <DatePicker selected={this.state.date} onChange={this.handleChange}/>
+                    <p>{this.state.date.toString()}</p>
                 </div>
             </div>
         );
@@ -78,3 +88,4 @@ class Date extends React.Component {
 }
 
 // Don't forget to export your component!
+export default Date;
