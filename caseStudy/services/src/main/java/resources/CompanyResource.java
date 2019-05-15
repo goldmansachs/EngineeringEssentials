@@ -16,10 +16,33 @@
 
 package resources;
 
-// TODO - add your @Path here
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.core.Response;
+import java.io.IOException;
+import pojo.Company;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import java.util.List;
+import resources.FileHelper;
+
+import jdk.nashorn.internal.objects.annotations.Getter;
+
+    // Your service should return data for a given stock ticker
+
+@Path("companies")
 public class CompanyResource {
 
-    // TODO - Add a @GET resource to get company data
-    // Your service should return data for a given stock ticker
+    private static final ObjectMapper mapper = new ObjectMapper();
+
+    @GET
+    public Response getCompanyForTicker(String ticker) throws IOException {
+
+        List<Company> companies = FileHelper.readAllCompanies("companyInfo.json");
+
+        // Need to get .json object
+        //Company company; //get the company for ticker
+        //return Response.ok().entity(company).build();
+        return Response.ok().entity(companies).build();
+    }
 
 }

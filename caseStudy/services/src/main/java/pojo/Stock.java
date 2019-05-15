@@ -29,6 +29,7 @@ import java.text.ParseException;
  * This class will define a company's end-of-day stock price
  * Look at resources/data/historicalStockData.json
  */
+
 public class Stock {
 
     public String name;
