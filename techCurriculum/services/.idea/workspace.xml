@@ -2,13 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="798615b7-c611-4f5a-8add-b8402ff3f799" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../caseStudy/services/src/main/main1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../caseStudy/services/src/main/main1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../caseStudy/services/src/test/test1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../caseStudy/services/src/test/test1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example1Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example1Resource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example2Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example2Resource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example3Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example3Resource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/solutions/Example12SolutionResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/solutions/Example12SolutionResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/src/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/backup/allParticipatingCountries.json" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/backup/allParticipatingCountries.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/backup/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/backup/events.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/backup/single-event.json" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/backup/single-event.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example10Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example10Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example11Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example11Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example12Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example12Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example1Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example1Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example2Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example2Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example3Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example3Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example4Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example4Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example5Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example5Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example6Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example6Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example7Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example7Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example8Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example8Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example9Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/examples/Example9Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/model/Country.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/model/Country.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/model/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/model/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/model/EventType.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/model/EventType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/model/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/model/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/model/Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/server/StarterApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/server/StarterApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example10SolutionResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example10SolutionResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example11SolutionResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example11SolutionResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example12SolutionResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example12SolutionResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example2SolutionResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example2SolutionResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example3SolutionResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example3SolutionResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example4SolutionResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example4SolutionResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example5SolutionResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example5SolutionResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example6SolutionResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example6SolutionResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example7SolutionResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example7SolutionResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example8SolutionResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example8SolutionResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example9SolutionResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/solutions/Example9SolutionResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/CreateEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/CreateEvents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/CustomJsonMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/CustomJsonMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/FileHelper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/FileHelper$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/FileHelper$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/FileHelper$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/FileHelper$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/FileHelper$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/FileHelper$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/FileHelper$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/FileHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/FileHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/LocalDateDeserializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/LocalDateDeserializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/LocalDateSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/classes/utility/LocalDateSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/test-classes/resources/ResourcesTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/test-classes/resources/ResourcesTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/test-classes/resources/ResourcesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/test-classes/resources/ResourcesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/test-classes/resources/ResourcesTestSolutions$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/test-classes/resources/ResourcesTestSolutions$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EngineeringEssentialsServices/target/test-classes/resources/ResourcesTestSolutions.class" beforeDir="false" afterPath="$PROJECT_DIR$/EngineeringEssentialsServices/target/test-classes/resources/ResourcesTestSolutions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+            <state relative-caret-position="237">
+              <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,14 +121,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+            <state relative-caret-position="204">
+              <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Country.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-226">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -121,110 +199,28 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="engineering-essentials" type="58d84e3e:PackageViewProjectNode" />
+              <item name="engineering-essentials-services" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="solutions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineering-essentials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="EngineeringEssentialsServices" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,6 +229,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunDashboard">
@@ -326,7 +323,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -337,7 +333,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2569558" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2569558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,6 +449,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example3Resource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-379">
@@ -465,18 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+        <state relative-caret-position="237">
+          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
