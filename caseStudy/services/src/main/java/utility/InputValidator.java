@@ -19,9 +19,27 @@ package utility;
 /**
  * Utility class to validate inputs
  */
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.core.type.TypeReference;
+import pojo.Company;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.*;
+
 public class InputValidator {
 
+    private static final ObjectMapper mapper = new ObjectMapper();
     // TODO - write a method that will validate your JSON input files
+    public static List<Company> readAllCompanies (String fileName) throws IOException {
+       if (fileName != null ) {
+           InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName))
+       };
+
+    }
 
     // TODO - write a method that will validate the inputs to the Company Resource
 
