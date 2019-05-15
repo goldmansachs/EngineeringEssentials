@@ -19,13 +19,9 @@ import './style/App.css';
 import Charts from './components/Charts.js';
 import Date from './components/Date.js';
 import StockTicker from './components/StockTicker.js';
-/**
- * TODO:
- * Import your components
- */
 
 
-export class App extends React.Component{
+export default class App extends React.Component{
     constructor(props) {
         super(props);
         this.state = {

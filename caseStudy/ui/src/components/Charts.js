@@ -74,12 +74,15 @@ export default class Charts extends React.Component {
          *
          *  Don't forget to bind the helper method in the constructor!
          * */
-}
+    }
     
     render() {
         /**
          * TODO
          * Render your LineChart component and pass the data for the chart to display via props
          */
+        return(
+            <LineChart />
+        );
     }
 }
