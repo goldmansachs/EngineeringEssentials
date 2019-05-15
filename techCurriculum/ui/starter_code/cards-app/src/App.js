@@ -15,13 +15,49 @@
 **/
 
 import React from 'react';
+import Title from './components/Title';
+import Card from './components/Card';
+import CardForm from './components/CardForm';
 
-function App() {
-  return (
-    <div>
-      <h1>Hello World 2</h1>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      cards: [
+        {
+          author: 'John Smith',
+          text: 'React is so cool!'
+        },
+        {
+          author: 'Jane Doe',
+          text: 'I use React for all my projects!'
+        }
+      ]
+    };
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit() {
+
+  }
+  
+  render() {
+    const cards = this.state.cards.map((card, index) => (
+      <Card author={card.author}
+        text={card.text}
+        key={index} />
+    ));
+
+    return (
+      <div id='app-body'>
+        <div id='left-panel'>
+          <Title />
+          { cards }
+        </div>
+        <CardForm onSubmit={this.handleSubmit} />
+      </div>
+    );
+  }
 }
 
 export default App;

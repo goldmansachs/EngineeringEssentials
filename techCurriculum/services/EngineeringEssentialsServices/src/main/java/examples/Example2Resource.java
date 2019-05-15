@@ -33,6 +33,6 @@ public class Example2Resource {
     @Path("test")
     @Produces(MediaType.APPLICATION_JSON)
     public String helloWorld() {
-        return "Hello, world!";
+        return "Welcome to Engineering Essentials Services Training!";
     }
 }
