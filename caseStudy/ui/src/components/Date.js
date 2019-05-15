@@ -39,7 +39,7 @@ export default class Date extends React.Component {
         this.state = {
             date: moment()
         };
-        this.
+        this.onChange = this.onChange.bind(this);
     }
 
     componentDidMount() {
@@ -58,7 +58,7 @@ export default class Date extends React.Component {
 
     render() {
         return (
-            <div className="date">
+            <div> className="date"
                 <input onChange={this.handleChange}/>   
                     /**
                      * TODO
@@ -67,9 +67,9 @@ export default class Date extends React.Component {
                      * This method should set the state to the date argument passed in the parameter.
                      *
                      */
-                     
+                     <DatePicker onChange={this.state.date}/>
                     <p><strong>{this.props.text}</strong></p>
-                    <div className="date-input">
+                <div className="date-input"> </div>
             </div>
         );
     }
