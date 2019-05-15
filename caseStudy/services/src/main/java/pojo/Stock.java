@@ -20,6 +20,7 @@ package pojo;
  * This class will define a company's end-of-day stock price
  * Look at resources/data/historicalStockData.json
  */
+
 public class Stock {
 
     // TODO - Think back to your modelling session

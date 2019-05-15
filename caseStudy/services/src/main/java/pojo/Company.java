@@ -22,9 +22,107 @@ package pojo;
  */
 public class Company {
 
-    // TODO - Think back to your modelling session
-    // Define the attributes of a Company based on the
-    // provided data in resources/data
+    private String symbol;
+    private String name;
+    private String hqCity;
+    private String hqStateOrCountry;
+    private int numEmployees;
+    private String sector;
+    private String industry;
+    private Stock stockHistory;
 
-    // TODO - add getter and setter methods for your attributes
+    public String getSymbol() {
+        return symbol;
+    }
+
+    public void setSymbol(String symbol) {
+        this.symbol = symbol;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getHeadquarterCity() {
+        return hqCity;
+    }
+
+    public void setHeadquarterCity(String hqCity) {
+        this.hqCity = hqCity;
+    }
+
+    public String getHeadquarterStateOrCountry() {
+        return this.hqStateOrCountry;
+    }
+
+    public void setHeadquarterStateOrCountry(String hqStateOrCountry) {
+        this.hqStateOrCountry = hqStateOrCountry;
+    }
+
+    public int getNumEmployees() {
+        return this.numEmployees;
+    }
+
+    public void setNumEmployees(int numEmployees) {
+        this.numEmployees = numEmployees;
+    }
+
+    public String getSector() {
+        return this.sector;
+    }
+
+    public void setSector(String sector) {
+        this.sector = sector;
+    }
+
+    public String getIndustry() {
+        return this.industry;
+    }
+
+    public void setIndustry(String industry) {
+        this.industry = industry;
+    }
+
+    public Stock getStockHistory() {
+        return this.stockHistory;
+    }
+
+    public void setStockHistory(Stock stockHistory) {
+        this.stockHistory = stockHistory;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Company)) return false;
+
+        Company company = (Company) o;
+
+        if (getSymbol() != company.getSymbol()) return false;
+        if (getName() != company.getName()) return false;
+        if (getHeadquarterCity() != company.getHeadquarterCity()) return false;
+        if (getHeadquarterStateOrCountry() != company.getHeadquarterStateOrCountry()) return false;
+        if (getNumEmployees() != company.getNumEmployees()) return false;
+        if (getSector() != company.getSector()) return false;
+        return getIndustry() == company.getIndustry(); 
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = getSymbol().hashCode();
+        result = 31 * result + getName().hashCode();
+        result = 31 * result + getHeadquarterCity().hashCode();
+        result = 31 * result + getHeadquarterStateOrCountry().hashCode();
+        result = 31 * result + getNumEmployees();
+        result = 31 * result + getSector().hashCode();
+        result = 31 * result + getIndustry().hashCode();
+        return result;
+    }
+
+
 }
