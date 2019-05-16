@@ -18,7 +18,9 @@ import React from 'react';
 import './style/App.css';
 import Date from './components/Date.js';
 import StockTicker from "./components/StockTicker";
-
+import LineChart from './components/charts/LineChart';
+import Charts from './components/Charts';
+import JohnData from './components/data/john_posts.json';
 /**
  * TODO:
  * Import your components
@@ -57,18 +59,16 @@ class App extends React.Component{
                    */}
 
                   <StockTicker />
+
+
+
+                <Charts  />
+                <LineChart dataOne={JohnData.data}  />
+
                   <div className="date-range">
                       <Date text="Start Date"/>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       <Date text="End Date"/>
                   </div>
-
-                  {/*<div className="date-range">*/}
-                  {/*    /!*<Date text="Start Date"/>*!/*/}
-                  {/*    <Date text="End Date"/>*/}
-                  {/*</div>*/}
-
-
               </div>
 
 
@@ -80,6 +80,8 @@ class App extends React.Component{
                *  be maintained as a state object.
                *  http://reactpatterns.com/#conditional-rendering
                */}
+
+
 
           </div>
       );
