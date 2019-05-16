@@ -47,17 +47,32 @@
  */
 
 import React from 'react';
+import Select from 'react-select';
+//import {Typeahead} from 'react-bootstrap-typeahead'; 
 
-//import {Typeahead} from 'react-bootstrap-typeahead'; UNCOMMENT this line if you are using the react-bootstrap-typeeahead component
+
+//UNCOMMENT this line if you are using the react-bootstrap-typeeahead component
 
 /* If you chose to use react-boostrap-typeahead, look at AsyncTypeahead for a component that 
  * provides auto-complete suggestions as you type. This would require adding a search handler 
  * method for an onSearch prop.
  * https://github.com/ericgio/react-bootstrap-typeahead/blob/master/example/examples/AsyncExample.react.js
  */
+const options = [
+    { value: 'goldman sachs', label: 'Goldman Sachs' },
+    { value: 'jpmorgan chase', label: 'JPMorgan Chase' },
+    { value: 'morgan stanley', label: 'Morgan Stanley' },
+    { value: 'marcus', label: 'Marcus' }
+  ];
 
 class StockTicker extends React.Component {
-
+ state = {
+    selectedOption: null,
+  }
+  handleChange = (selectedOption) => {
+    this.setState({ selectedOption });
+    console.log(`Option selected:`, selectedOption);
+  }
     /**
      * TODO
      * Prefetch the data required to display options fo the typeahead component. Initialize a state array with
@@ -120,7 +135,7 @@ class StockTicker extends React.Component {
 
 
     render() {
-
+        const { selectedOption } = this.state;
         /**
          * TODO
          * Render a typeahead component that uses the data prefetched from your service to display a list of companies or
@@ -130,27 +145,26 @@ class StockTicker extends React.Component {
          */
 
         return (
+
             <div className="stockticker">
-                <div className="ticker-input">
-                    <p><strong>Stock Ticker</strong></p>
-                    <input type='text' className='form-control' name={this.props.name} value={this.props.value} onChange={this.handleChange} />
-                    <div className="stockticker-typeahead">
-                        {/* useful props if you decide to use react-bootstrap-typeahead
-                        <Typeahead
-                             align=
-                             filterBy=
-                             labelKey=
-                             onChange={this.handleChange}
-                             minLength=
-                             placeholder="Company Name/Ticker"
-                             options=
-                        />
-                        */}
-                    </div>
-                </div>
+                    <p><strong> Stock Ticker   </strong></p>
+
+                        {  
+                                        <Select
+                                        className= "ticker-input"
+                                        defaultInputValue={"Select Company"}
+                                        value={selectedOption}
+                                        onChange={this.handleChange}
+                                        options={options}
+                                        isMulti
+                                      />
+                        }
+
+
                 {
                     <div>
-                    {this.state.showcompanyInfo ? (
+
+                    {/* {this.selectedOption= "Goldman Sachs" ? (
                     <p>{this.state.company.symbol.toString()}</p>,
                     <p>{this.state.company.name.toString()}</p>,
                     <p>{this.state.company.state.toString()}</p>,
@@ -158,11 +172,14 @@ class StockTicker extends React.Component {
                     <p>{this.state.company.industry.toString()}</p>
                     
                     ) : (
-                    <p> Enter Info</p> 
-              )}
+                    <p> </p>  
+              )} */}
 
 
                     </div>
+                     
+      
+            
                     /**
                      *  TODO
                      *  Create a div element that shows a company information when the ticker changes. You will need to use a conditional here
