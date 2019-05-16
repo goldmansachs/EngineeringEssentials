@@ -14,9 +14,6 @@
  * under the License.
  */
 
-
-
-
 /* Display a date picker component for the start date of the range for your line chart.
  *
  * Take a look at the react-datepicker for a DatePicker component
@@ -24,21 +21,22 @@
  * another package for this component if you'd like.
  * https://www.npmjs.com/package/react-datepicker
  * https://hacker0x01.github.io/react-datepicker/
- */
+*/
 
 import React from 'react';
-//import DatePicker from 'react-datepicker'; UNCOMMENT this line if you are using the DatePicker component
 import moment from 'moment';
+import DatePicker from 'react-datepicker'; 
+// UNCOMMENT this line if you are using the DatePicker component
+import 'react-datepicker/dist/react-datepicker.css'; 
+// UNCOMMENT this line if you are using the DatePicker component
 
-//import 'react-datepicker/dist/react-datepicker.css'; UNCOMMENT this line if you are using the DatePicker component
-
-class Date extends React.Component {
+export default class Date extends React.Component {
     constructor (props) {
         super(props)
         this.state = {
             date: moment()
         };
-
+        this.handleChange = this.handleChange.bind(this);
     }
 
     componentDidMount() {
@@ -46,6 +44,7 @@ class Date extends React.Component {
     }
 
     handleChange(date) {
+        this.props.onChange(date);
         /**
          * TODO
          * Set the state. Call this.props.onChange with the date argument
@@ -56,8 +55,7 @@ class Date extends React.Component {
 
     render() {
         return (
-            <div className="date">
-                {
+            <div> className="date" 
                     /**
                      * TODO
                      * Render the date picker component with a date format of "MM/DD/YYYY".
@@ -65,16 +63,14 @@ class Date extends React.Component {
                      * This method should set the state to the date argument passed in the parameter.
                      *
                      */
-                }
+                <DatePicker 
+                    selected={this.state.date} 
+                    onChange={this.handleChange} 
+                    dateFormat="MM/DD/YYYY"
+                />
                 <p><strong>{this.props.text}</strong></p>
-                <div className="date-input">
-
-                </div>
+                <div className="date-input"> </div>
             </div>
         );
     }
-
-
 }
-
-// Don't forget to export your component!
