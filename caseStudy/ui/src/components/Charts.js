@@ -16,11 +16,14 @@
 
 import React from 'react';
 import LineChart from './charts/LineChart';
+//import JohnData from './components/data/john_posts.json';
 
 class Charts extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+
+
             /**
              * TODO
              * Initialize a state object to store a JavaScript object returned from the helper method.
@@ -37,7 +40,7 @@ class Charts extends React.Component {
 
     dataSourceHelper(props) {
         props = props || this.props;
-        
+
         /**
          * TODO
          * Write a helper method to make an AJAX HTTP request to your service for the
@@ -74,9 +77,15 @@ class Charts extends React.Component {
          *
          *  Don't forget to bind the helper method in the constructor!
          * */
-}
-    
+    }
+
     render() {
+
+        return (
+            <div>
+                <LineChart />
+            </div>
+        )
         /**
          * TODO
          * Render your LineChart component and pass the data for the chart to display via props
@@ -84,4 +93,4 @@ class Charts extends React.Component {
     }
 }
 
-// Don't forget to export your component!
+export default Charts;
