@@ -16,15 +16,58 @@
 
 package pojo;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
+
 /**
  * This class will define a company's end-of-day stock price
  * Look at resources/data/historicalStockData.json
  */
 public class Stock {
-
-    // TODO - Think back to your modelling session
     // Define the attributes of a stock price based on the
     // provided data in resources/data
+    String ticker;
+    ArrayList<Price> prices;
+    Date startDate;
+    Date endDate;
 
-    // TODO - add getter and setter methods for your attributes
+    public Stock(String ticker, ArrayList<Price> prices){
+        this.ticker = ticker;
+        this.prices = prices;
+        sortPrices();
+        this.startDate = prices.get(0).getDate();
+        this.endDate = prices.get(prices.size()-1).getDate();
+    }
+
+    private void sortPrices(){
+        Comparator<Price> compare = Comparator.comparing(Price::getDate);
+        Collections.sort(prices, compare);
+    }
+
+    public void setTicker(String ticker) {
+        this.ticker = ticker;
+    }
+
+    public void setPrices(ArrayList<Price> prices) {
+        this.prices = prices;
+        sortPrices();
+    }
+
+    public String getTicker() {
+        return ticker;
+    }
+
+    public ArrayList<Price> getPrices() {
+        return prices;
+    }
+
+    public Date getStartDate() {
+        return startDate;
+    }
+
+    public Date getEndDate() {
+        return endDate;
+    }
 }

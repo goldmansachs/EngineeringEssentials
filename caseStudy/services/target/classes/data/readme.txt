@@ -14,13 +14,5 @@
  * under the License.
  */
 
-package resources;
-
-// TODO - add your @Path here
-public class CompanyResource {
-
-    // TODO - Add a @GET resource to get company data
-    // Your service should return data for a given stock ticker
-
-
-}
+Please note that the data in historicalStockData.json is fabricated
+and does not indicate any past, present or future market values.

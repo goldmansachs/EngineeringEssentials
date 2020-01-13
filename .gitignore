@@ -1,2 +1,9 @@
 *.DS_Store
 node_modules
+techCurriculum/
+.idea/
+.log
+.logs
+.metadata/
+pom.xml
+.iml
